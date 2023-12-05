@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://c7cjxig2g7886"]
+
+[ext_resource type="Texture2D" uid="uid://d237xwfnngrwo" path="res://Cards Resourses/TempleSprite/Temple1.png" id="1_qmqi1"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_hy6rr"]
+
+[resource]
+script = ExtResource("2_hy6rr")
+CardName = "The Explorer"
+CardIlustration = ExtResource("1_qmqi1")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 20 of everything"
+CardRequirement = "You played a “Temple” card this round"
+Notes = "Maybe the temple is the house of God, maybe it is just beautiful, in one way or another it inspires our hearts"
+Moon = true

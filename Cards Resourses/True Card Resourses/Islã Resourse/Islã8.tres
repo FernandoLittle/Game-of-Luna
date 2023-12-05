@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://ot4lwgrh2pvq"]
+
+[ext_resource type="Texture2D" uid="uid://cn6ks33n6vbmr" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic8.png" id="1_w2ijp"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_yimkc"]
+
+[resource]
+script = ExtResource("2_yimkc")
+CardName = "The End of the Dance"
+CardIlustration = ExtResource("1_w2ijp")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 40 money."
+CardRequirement = "There are no curses at play."
+Notes = "We can dance happily in a world without curses"
+Moon = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://pdjrw4l2iqvi"]
+
+[ext_resource type="Texture2D" uid="uid://du3a66yh7416h" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic2.png" id="1_kx5dk"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_sniqa"]
+
+[resource]
+script = ExtResource("2_sniqa")
+CardName = "The Corruption of Islam"
+CardIlustration = ExtResource("1_kx5dk")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Destroy all curses, lose 10 faith for each curse destroyed."
+CardRequirement = "This is the first round."
+Notes = "Fighting curses can corrupt even a pure heart."
+Moon = false

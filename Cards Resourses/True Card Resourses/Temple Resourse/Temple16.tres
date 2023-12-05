@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b512pwxli0n70"]
+
+[ext_resource type="Texture2D" uid="uid://cjpjxhqy45k76" path="res://Cards Resourses/TempleSprite/Temple16.png" id="1_0nfg2"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_7rm1w"]
+
+[resource]
+script = ExtResource("2_7rm1w")
+CardName = "Temple of Chaos"
+CardIlustration = ExtResource("1_0nfg2")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

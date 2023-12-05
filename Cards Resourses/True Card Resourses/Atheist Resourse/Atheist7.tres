@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://c8jdkca4q6pdr"]
+
+[ext_resource type="Texture2D" uid="uid://dd287hxgnnt6o" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu7.png" id="1_r47nk"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_3ns0o"]
+
+[resource]
+script = ExtResource("2_3ns0o")
+CardName = "The Light of Cosmos"
+CardIlustration = ExtResource("1_r47nk")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 30 faith."
+CardRequirement = "You have 0 faith."
+Notes = "If God is perfect, he is nothing more than Totality."
+Moon = false

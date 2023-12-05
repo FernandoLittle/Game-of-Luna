@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b80jp0a4y35qk"]
+
+[ext_resource type="Texture2D" uid="uid://rwvhcinnq77l" path="res://Cards Resourses/TempleSprite/Temple7.png" id="1_4gs62"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_bdqgg"]
+
+[resource]
+script = ExtResource("2_bdqgg")
+CardName = "Temple of Authority"
+CardIlustration = ExtResource("1_4gs62")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = true

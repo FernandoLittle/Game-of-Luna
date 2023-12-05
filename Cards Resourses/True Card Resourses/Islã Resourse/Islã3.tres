@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://4p7dvukigtqj"]
+
+[ext_resource type="Texture2D" uid="uid://3fcri8g86sld" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic3.png" id="1_ruhcr"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_jlc2p"]
+
+[resource]
+script = ExtResource("2_jlc2p")
+CardName = "The Secret of Islam"
+CardIlustration = ExtResource("1_ruhcr")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 50 Faith."
+CardRequirement = "You have more than 50 faith."
+Notes = "Faith reveals to us the secrets of the universe"
+Moon = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b4euobjflinto"]
+
+[ext_resource type="Texture2D" uid="uid://bx44o3r8pe2ep" path="res://Cards Resourses/CardSprites/BudaSprite/Buda16.png" id="1_ho1os"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_0cwk8"]
+
+[resource]
+script = ExtResource("2_0cwk8")
+CardName = "Samsara Preta"
+CardIlustration = ExtResource("1_ho1os")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Destroy all other Samsara permanents, if one of those permanents was the \"Samsara Naraka\" card, gain 30 of everything immediately. At the end of the turn, gain 10 of everything for each Samsara card destroyed in that game."
+CardRequirement = "None"
+Notes = "The hungry reincarnate in this cycle of suffering and desires, the Samsara"
+Moon = false

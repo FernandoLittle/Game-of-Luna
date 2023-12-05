@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dojxncq3mfc4g"]
+
+[ext_resource type="Texture2D" uid="uid://bsd5qarfkca6e" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic6.png" id="1_mj2m0"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_dq7bc"]
+
+[resource]
+script = ExtResource("2_dq7bc")
+CardName = "The World of Islam"
+CardIlustration = ExtResource("1_mj2m0")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "If you have more than 50 population, gain 20 faith and money, if you have more than 300 population, you win the match."
+CardRequirement = "None"
+Notes = "It is God's will for Islam to rule this world"
+Moon = false

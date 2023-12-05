@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://sc00vdy2p5bt"]
+
+[ext_resource type="Texture2D" uid="uid://c3y0q24qs4wid" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu14.png" id="1_gkino"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_os87q"]
+
+[resource]
+script = ExtResource("2_os87q")
+CardName = "The Landscape of the End"
+CardIlustration = ExtResource("1_gkino")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain an amount of faith equal to your highest attribute."
+CardRequirement = "Your faith is 0."
+Notes = "In a godless world, we found something higher"
+Moon = false

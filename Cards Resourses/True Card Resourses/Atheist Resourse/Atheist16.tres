@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://duyqa3cj03mxe"]
+
+[ext_resource type="Texture2D" uid="uid://ctlredi81221u" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu16.png" id="1_sy2ku"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_wx3tu"]
+
+[resource]
+script = ExtResource("2_wx3tu")
+CardName = "The Landscape of Fear"
+CardIlustration = ExtResource("1_sy2ku")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose 40 faith, if it is still greater than 0, gain 60 money and 60 population"
+CardRequirement = "None"
+Notes = "In a godless world, we fear"
+Moon = true

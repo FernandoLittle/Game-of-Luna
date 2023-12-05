@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dderk8kbd0ui6"]
+
+[ext_resource type="Texture2D" uid="uid://suhevvm7gs1w" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição1.png" id="1_lc0r1"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_37tdi"]
+
+[resource]
+script = ExtResource("2_37tdi")
+CardName = "Curse of Desire"
+CardIlustration = ExtResource("1_lc0r1")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 faith."
+CardRequirement = "You have less than X0  money."
+Notes = "Desire feeds on our misery and corrupts our faith"
+Moon = false

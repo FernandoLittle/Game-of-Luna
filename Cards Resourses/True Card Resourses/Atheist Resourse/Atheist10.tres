@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bun6680lw2pqv"]
+
+[ext_resource type="Texture2D" uid="uid://bedfjuwclbfs" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu10.png" id="1_nxwtv"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_m5tjy"]
+
+[resource]
+script = ExtResource("2_m5tjy")
+CardName = "The Fantasy of Cosmos"
+CardIlustration = ExtResource("1_nxwtv")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 10 of everything"
+CardRequirement = "You have 0 faith"
+Notes = "In the infinity of the cosmos, everything is possible, even something absurd like life"
+Moon = false

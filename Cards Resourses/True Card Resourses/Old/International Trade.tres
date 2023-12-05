@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://21vvo0mrygao"]
+
+[ext_resource type="Texture2D" uid="uid://ditehgdksgsv" path="res://Cards Resourses/CardSprites/Old/Comércio Internacional.png" id="1_6jah0"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_lwvf0"]
+
+[resource]
+script = ExtResource("2_lwvf0")
+CardName = "Comércio Internacional"
+CardIlustration = ExtResource("1_6jah0")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [3, 0, 0]
+CardEffect = "You gain 10 economy for each permanent you and your opponent have"
+CardRequirement = "None"
+Notes = ""

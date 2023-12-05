@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bcqcrbu67mrw7"]
+
+[ext_resource type="Texture2D" uid="uid://d24wk4wahgunv" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo7.png" id="1_3u8xa"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_u83hb"]
+
+[resource]
+script = ExtResource("2_u83hb")
+CardName = "Path to Purgatory"
+CardIlustration = ExtResource("1_3u8xa")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 40 population."
+CardRequirement = "This card is destroyed."
+Notes = "Death is not the end"
+Moon = false

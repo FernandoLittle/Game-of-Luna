@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://d0y1tiehge0uk"]
+
+[ext_resource type="Texture2D" uid="uid://bc62ynyg04dfg" path="res://Cards Resourses/CardSprites/Old/PARA TRÁS INDITOSO ESQUERDISTA SE TU FREMES DIANTE DO MERCADO CLAMANDO POR REGULAÇÃO DO ESTADO JAMAIS PODERÁ CLAMAR SER UM CONSERVADOR CAPITALISTA.png" id="1_pkx8k"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_j8yn5"]
+
+[resource]
+script = ExtResource("2_j8yn5")
+CardName = "The capitalist conservative"
+CardIlustration = ExtResource("1_pkx8k")
+PopulationAttribute = 5
+EconomicAttribute = 10
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [1, 3, 0]
+CardEffect = "This card's bonuses are doubled"
+CardRequirement = "You have less than 0 government points"
+Notes = "If you tremble before the market calling for State regulation, you will never be able to claim to be a capitalist conservative."

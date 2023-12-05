@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://c7367hou85fin"]
+
+[ext_resource type="Texture2D" uid="uid://moaa52dtnuo6" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição7.png" id="1_0ywdq"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_g6pww"]
+
+[resource]
+script = ExtResource("2_g6pww")
+CardName = "Curse of Lies"
+CardIlustration = ExtResource("1_0ywdq")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 faith."
+CardRequirement = "You have less than population."
+Notes = "The lie disunites our people and leads them to perdition"
+Moon = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://kglayw6vyrdb"]
+
+[ext_resource type="Texture2D" uid="uid://d1266y3631g1t" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição10.png" id="1_kd7j7"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_vhhwg"]
+
+[resource]
+script = ExtResource("2_vhhwg")
+CardName = "Curse of Judgment"
+CardIlustration = ExtResource("1_kd7j7")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 population."
+CardRequirement = "You have less than X0 faith."
+Notes = "Our people will be judged for their lack of faith"
+Moon = false

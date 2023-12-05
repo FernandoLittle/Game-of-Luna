@@ -1,0 +1,3 @@
+Card
+Resource
+IdeologiaTeste

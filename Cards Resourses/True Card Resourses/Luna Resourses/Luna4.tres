@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://rx6dpggu8s87"]
+
+[ext_resource type="Texture2D" uid="uid://gubxvg1ch8mu" path="res://Cards Resourses/CardSprites/LunaSprite/Luna3.png" id="1_03uo6"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_jxxhc"]
+
+[resource]
+script = ExtResource("2_jxxhc")
+CardName = "The Nature of Moon"
+CardIlustration = ExtResource("1_03uo6")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Whenever a card with a moon in its illustration is played, gain 30 faith"
+CardRequirement = "None"
+Notes = "The Moon was indeed very beautiful, but it was surrounded by the immense darkness of the night"
+Moon = true

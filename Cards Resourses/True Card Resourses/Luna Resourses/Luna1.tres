@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://d4bayx83vwdsf"]
+
+[ext_resource type="Texture2D" uid="uid://dp0t7nh8d4pl7" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo15.png" id="1_ou7xy"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_2c6fp"]
+
+[resource]
+script = ExtResource("2_2c6fp")
+CardName = "Cup of Moon"
+CardIlustration = ExtResource("1_ou7xy")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Whenever a card with a moon in its illustration is played, gain 20 of everything"
+CardRequirement = "None"
+Notes = "William looked at the moon that was in the sky"
+Moon = true

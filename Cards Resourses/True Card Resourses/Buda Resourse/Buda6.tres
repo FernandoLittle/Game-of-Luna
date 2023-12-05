@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://cticmxsrekd2d"]
+
+[ext_resource type="Texture2D" uid="uid://b0e7q2ya6yu6u" path="res://Cards Resourses/CardSprites/BudaSprite/Buda6.png" id="1_2jai4"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_48ojo"]
+
+[resource]
+script = ExtResource("2_48ojo")
+CardName = "Meditation under the Moon"
+CardIlustration = ExtResource("1_2jai4")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 60 money."
+CardRequirement = "None"
+Notes = "Gain 20 faith for each “Meditation” card you have."
+Moon = true

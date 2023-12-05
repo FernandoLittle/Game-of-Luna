@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://df5x3omwpkv6k"]
+
+[ext_resource type="Texture2D" uid="uid://bodq1x141lip0" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição18.png" id="1_c1i6x"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_s4pwx"]
+
+[resource]
+script = ExtResource("2_s4pwx")
+CardName = "Curse of Old"
+CardIlustration = ExtResource("1_c1i6x")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 money."
+CardRequirement = "You have less than X0 population."
+Notes = "Old age kills our people and threatens our faith"
+Moon = false

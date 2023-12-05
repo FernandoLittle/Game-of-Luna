@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://d2pmjwyiobmgh"]
+
+[ext_resource type="Texture2D" uid="uid://chqkknn4fucsm" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo9.png" id="1_0112w"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_o8goi"]
+
+[resource]
+script = ExtResource("2_o8goi")
+CardName = "The Kingdom of God the Father"
+CardIlustration = ExtResource("1_0112w")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 20 of everything."
+CardRequirement = "This card is destroyed."
+Notes = "Earthly life is full of misery, but we can ascend to a life in the kingdom of heaven."
+Moon = false

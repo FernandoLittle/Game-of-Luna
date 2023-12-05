@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://cvfcxai0wnef1"]
+
+[ext_resource type="Texture2D" uid="uid://dath232hqwog5" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição11.png" id="1_ywx2f"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_yucj1"]
+
+[resource]
+script = ExtResource("2_yucj1")
+CardName = "Curse of Despair"
+CardIlustration = ExtResource("1_ywx2f")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 population."
+CardRequirement = "You have less than X0 faith."
+Notes = "Lack of faith leads our people to despair"
+Moon = false

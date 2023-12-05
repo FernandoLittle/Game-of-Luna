@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://drap5b00issjh"]
+
+[ext_resource type="Texture2D" uid="uid://dgogu4h5dpgva" path="res://Cards Resourses/CardSprites/Old/Cidade Oceânica.png" id="1_ws460"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_v02ct"]
+
+[resource]
+script = ExtResource("2_v02ct")
+CardName = "Oceanic City"
+CardIlustration = ExtResource("1_ws460")
+PopulationAttribute = 0
+EconomicAttribute = -10
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [2, 2, 0]
+CardEffect = "Gain 50 government points"
+CardRequirement = "You have 50 economic points"
+Notes = ""

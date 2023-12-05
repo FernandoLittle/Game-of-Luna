@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bwt0oomgrf1ro"]
+
+[ext_resource type="Texture2D" uid="uid://kr372gyvjsu6" path="res://Cards Resourses/CardSprites/BudaSprite/Buda1.png" id="1_yvvgn"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_rwos0"]
+
+[resource]
+script = ExtResource("2_rwos0")
+CardName = "Meditation Above Evil"
+CardIlustration = ExtResource("1_yvvgn")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 20 population for each \"Meditation\" card you have."
+CardRequirement = "None"
+Notes = "In meditation, humanity discovers meaning around darkness."
+Moon = false

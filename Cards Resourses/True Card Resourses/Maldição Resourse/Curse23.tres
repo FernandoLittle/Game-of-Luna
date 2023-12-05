@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bgmkoqwxwgdyq"]
+
+[ext_resource type="Texture2D" uid="uid://k3au5wt1l03y" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição23.png" id="1_y4ru4"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_fgmqj"]
+
+[resource]
+script = ExtResource("2_fgmqj")
+CardName = "Curse of Night"
+CardIlustration = ExtResource("1_y4ru4")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 faith."
+CardRequirement = "You have less than X0 population."
+Notes = "Our people are terrified in the middle of the night and their faith is weakened"
+Moon = true

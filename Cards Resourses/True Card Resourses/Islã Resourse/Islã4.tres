@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://4tlwcfejoqrh"]
+
+[ext_resource type="Texture2D" uid="uid://d0ycde7cwmfft" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic4.png" id="1_27u4d"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_j3f5m"]
+
+[resource]
+script = ExtResource("2_j3f5m")
+CardName = "The truth of Islam"
+CardIlustration = ExtResource("1_27u4d")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 30 money and population."
+CardRequirement = "You have more than 50 faith."
+Notes = "Faith reveals to us the secrets of this world"
+Moon = false

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="IdeologiaTeste" load_steps=2 format=3 uid="uid://5re3ibhrglvc"]
+
+[ext_resource type="Script" path="res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd" id="1_so81m"]
+
+[resource]
+script = ExtResource("1_so81m")
+PerguntaEN = ["The war is coming.", "Fighting will bring your nation's prosperity and your death.", "Fleeing will bring your nation's ruin and your safety.", "Will you flee or fight?"]
+RespostasEN = ["I will flee", "I will fight"]
+PerguntaBR = ["A guerra está vindo.", "Lutar trará a prosperidade da sua nação e a sua morte.", "Fugir trará a ruína da sua nação e a sua segurança.", "Você irá fugir ou lutar?"]
+RespostasBR = ["Eu vou fugir", "Eu vou lutar"]
+PerguntaES = []
+RespostasES = []
+Numero = 100

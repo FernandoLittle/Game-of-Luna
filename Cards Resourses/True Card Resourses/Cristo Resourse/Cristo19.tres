@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://qxhyl160tceu"]
+
+[ext_resource type="Texture2D" uid="uid://bgojyjb0fvx78" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo19.png" id="1_7jw5b"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_1d7lr"]
+
+[resource]
+script = ExtResource("2_1d7lr")
+CardName = "The Death of Son"
+CardIlustration = ExtResource("1_7jw5b")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "For each card destroyed in this match, gain 10 of everything."
+CardRequirement = "None"
+Notes = "The symbol of Christ's death."
+Moon = false

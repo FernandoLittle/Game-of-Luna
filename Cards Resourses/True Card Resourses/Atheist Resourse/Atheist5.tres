@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://ba5nfbrbs0ycx"]
+
+[ext_resource type="Texture2D" uid="uid://62hriv28apq8" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu5.png" id="1_jh4ue"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_bed7o"]
+
+[resource]
+script = ExtResource("2_bed7o")
+CardName = "Mirror of Success"
+CardIlustration = ExtResource("1_jh4ue")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 40 in the highest attribute."
+CardRequirement = "Your 3 attributes are different."
+Notes = "The mirror projects the image you love most"
+Moon = false

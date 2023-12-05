@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://cxq7y3g03vs38"]
+
+[ext_resource type="Texture2D" uid="uid://dc02di2rypb7y" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo17.png" id="1_w0kbi"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_jwpgi"]
+
+[resource]
+script = ExtResource("2_jwpgi")
+CardName = "Theodosius Decretum"
+CardIlustration = ExtResource("1_w0kbi")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 80 population."
+CardRequirement = "Your faith is at least double the population."
+Notes = "The religion that was previously persecuted becomes the official religion of the empire."
+Moon = false

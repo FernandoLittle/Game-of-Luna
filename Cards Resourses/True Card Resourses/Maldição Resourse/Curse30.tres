@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b0kmu7esqc80i"]
+
+[ext_resource type="Texture2D" uid="uid://ca68eu3av8jf4" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição30.png" id="1_qneeo"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_qp67u"]
+
+[resource]
+script = ExtResource("2_qp67u")
+CardName = "Curse of  Void"
+CardIlustration = ExtResource("1_qneeo")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "The void is the only true curse"
+Moon = true

@@ -1,0 +1,363 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701812060
+Buneco.tscn::PackedScene::2839560988498764243::1701536150::0::1::::<><>::uid://btab21y1p4vl7
+icon.svg::CompressedTexture2D::1803469827915797999::1695949740::1695949758::1::::<><>::
+Moedinha anime.gd::GDScript::-1::1700748413::0::1::::<>Node2D<>::
+moedinha_anime1.tscn::PackedScene::2188363551426330809::1701536150::0::1::::<><>::res://Moedinha anime.gd<>uid://b4ldtlha6bq7s
+MãoL.png::CompressedTexture2D::8363400461652964249::1697303814::1697303816::1::::<><>::
+ParticlesAttributes.tscn::PackedScene::5096532985442433389::1701536150::0::1::::<><>::uid://c5c587elf1kix
+::res://BattleScene/::1701811945
+AnimeController.gd::GDScript::-1::1698356992::0::1::::AnimeController<>Node<>::
+BattleScene.tscn::PackedScene::2801494304646179396::1701570658::0::1::::<><>::res://SubCenas/CardData.gd<>uid://b4xonoxthyljl
+Beta Button Controller.gd::GDScript::-1::1698598491::0::1::::<>Node<>::
+CameraController.gd::GDScript::-1::1697144086::0::1::::<>Node<>::
+ControllerBoneco.gd::GDScript::-1::1697310034::0::1::::<>Node<>::
+ControllerDio.gd::GDScript::-1::1698876551::0::1::::ControllerDio<>Node<>::
+ControllerEffects.gd::GDScript::-1::1700749596::0::1::::<>Node<>::
+ControllerUI.gd::GDScript::-1::1698332258::0::1::::<>Node<>::
+DiceSystem.gd::GDScript::-1::1701811945::0::1::::<>Node<>::
+DragControl.gd::GDScript::-1::1698607237::0::1::::<>Node2D<>::
+DragController.gd::GDScript::-1::1697579294::0::1::::<>Node2D<>::
+ExtraEffects.gd::GDScript::-1::1700931278::0::1::::<>Node<>::
+::res://Buneco/::1697303784
+Braço1L.png::CompressedTexture2D::5345825304557881876::1697210020::1697210021::1::::<><>::
+Braço1R.png::CompressedTexture2D::1781536963176521620::1697210020::1697210021::1::::<><>::
+Braço2L.png::CompressedTexture2D::8234876117562233228::1697210020::1697210021::1::::<><>::
+Braço2R.png::CompressedTexture2D::3720119050128855298::1697210020::1697210021::1::::<><>::
+Cabeça.png::CompressedTexture2D::7881758562683213377::1697210020::1697210021::1::::<><>::
+Corpo.png::CompressedTexture2D::1667745747552027841::1697210020::1697210021::1::::<><>::
+MãoR.png::CompressedTexture2D::6047651644252388843::1697210020::1697210021::1::::<><>::
+Perna1L.png::CompressedTexture2D::2334198011655242862::1697210020::1697210021::1::::<><>::
+Perna1R.png::CompressedTexture2D::161559437404355789::1697210020::1697210021::1::::<><>::
+Perna2L.png::CompressedTexture2D::1745180836029572256::1697210020::1697210021::1::::<><>::
+Perna2R.png::CompressedTexture2D::4578621754108340806::1697210020::1697210021::1::::<><>::
+PéL.png::CompressedTexture2D::8930050239503722192::1697210020::1697210021::1::::<><>::
+PéR.png::CompressedTexture2D::2004260305724229488::1697210020::1697210021::1::::<><>::
+::res://Cards Resourses/::1701570669
+Card.gd::GDScript::-1::1701570669::0::1::::Card<>Resource<>::
+::res://Cards Resourses/CardSprites/::1701739817
+::res://Cards Resourses/CardSprites/AtheistSprite/::1701551712
+Ateu1.png::CompressedTexture2D::2437873626529136510::1701535438::1701535440::1::::<><>::
+Ateu2.png::CompressedTexture2D::8379033924991914840::1701535438::1701535440::1::::<><>::
+Ateu3.png::CompressedTexture2D::2598430677167122996::1701535438::1701535440::1::::<><>::
+Ateu4.png::CompressedTexture2D::63295885316877933::1701535438::1701535440::1::::<><>::
+Ateu5.png::CompressedTexture2D::2232048183482933677::1701535438::1701535440::1::::<><>::
+Ateu6.png::CompressedTexture2D::3176350138012198166::1701535438::1701535440::1::::<><>::
+Ateu7.png::CompressedTexture2D::7427627991003735728::1701535438::1701535440::1::::<><>::
+Ateu8.png::CompressedTexture2D::6648499180863336274::1701535439::1701535440::1::::<><>::
+Ateu9.png::CompressedTexture2D::6561788280981678324::1701535439::1701535440::1::::<><>::
+Ateu10.png::CompressedTexture2D::78637939211020664::1701535439::1701535440::1::::<><>::
+Ateu11.png::CompressedTexture2D::9216801469288026728::1701535439::1701535440::1::::<><>::
+Ateu12.png::CompressedTexture2D::433095529801682974::1701535439::1701535440::1::::<><>::
+Ateu13.png::CompressedTexture2D::2466162888276780294::1701535439::1701535440::1::::<><>::
+Ateu14.png::CompressedTexture2D::6789222016552151731::1701535439::1701535440::1::::<><>::
+Ateu15.png::CompressedTexture2D::3246651561509234336::1701535439::1701535440::1::::<><>::
+Ateu16.png::CompressedTexture2D::6130177055319817228::1701551702::1701551712::1::::<><>::
+Ateu17.png::CompressedTexture2D::4365011907071703702::1701551702::1701551712::1::::<><>::
+Ateu18.png::CompressedTexture2D::8414859327032684955::1701551702::1701551712::1::::<><>::
+::res://Cards Resourses/CardSprites/BudaSprite/::1701535422
+Buda1.png::CompressedTexture2D::738741507919926567::1701535370::1701535384::1::::<><>::
+Buda2.png::CompressedTexture2D::8197815806272360541::1701535370::1701535384::1::::<><>::
+Buda3.png::CompressedTexture2D::7332012891001416174::1701535370::1701535384::1::::<><>::
+Buda4.png::CompressedTexture2D::3711323666085714723::1701535370::1701535384::1::::<><>::
+Buda5.png::CompressedTexture2D::5387602696708448723::1701535370::1701535384::1::::<><>::
+Buda6.png::CompressedTexture2D::4151372257379308722::1701535370::1701535384::1::::<><>::
+Buda7.png::CompressedTexture2D::8637652064408102791::1701535370::1701535384::1::::<><>::
+Buda8.png::CompressedTexture2D::9068275639353199094::1701535370::1701535384::1::::<><>::
+Buda9.png::CompressedTexture2D::2254473289793471768::1701535370::1701535384::1::::<><>::
+Buda10.png::CompressedTexture2D::5276567267844820254::1701535370::1701535383::1::::<><>::
+Buda11.png::CompressedTexture2D::1214823483090690698::1701535370::1701535383::1::::<><>::
+Buda12.png::CompressedTexture2D::5666972156186677910::1701535370::1701535383::1::::<><>::
+Buda13.png::CompressedTexture2D::4838609263316593144::1701535371::1701535383::1::::<><>::
+Buda14.png::CompressedTexture2D::2416052560794020826::1701535371::1701535383::1::::<><>::
+Buda15.png::CompressedTexture2D::77253635516782334::1701535371::1701535383::1::::<><>::
+Buda16.png::CompressedTexture2D::4062418334575557107::1701535371::1701535383::1::::<><>::
+Buda17.png::CompressedTexture2D::7950195292513337269::1701535371::1701535383::1::::<><>::
+::res://Cards Resourses/CardSprites/CristoSprite/::1701535424
+Cristo1.png::CompressedTexture2D::9132970849422471000::1701535398::1701535424::1::::<><>::
+Cristo2.png::CompressedTexture2D::3518011935430191982::1701535398::1701535424::1::::<><>::
+Cristo3.png::CompressedTexture2D::4219224608724466207::1701535398::1701535423::1::::<><>::
+Cristo4.png::CompressedTexture2D::7839540181144202043::1701535398::1701535424::1::::<><>::
+Cristo5.png::CompressedTexture2D::3039036291437690039::1701535398::1701535423::1::::<><>::
+Cristo6.png::CompressedTexture2D::2685639377514408938::1701535398::1701535423::1::::<><>::
+Cristo7.png::CompressedTexture2D::9115582973126287295::1701535398::1701535423::1::::<><>::
+Cristo8.png::CompressedTexture2D::5135789962695294011::1701535398::1701535423::1::::<><>::
+Cristo9.png::CompressedTexture2D::5297819048995206088::1701535398::1701535423::1::::<><>::
+Cristo10.png::CompressedTexture2D::5676408150704709456::1701535398::1701535423::1::::<><>::
+Cristo11.png::CompressedTexture2D::2370075188859415040::1701535398::1701535423::1::::<><>::
+Cristo12.png::CompressedTexture2D::2852703113390626286::1701535398::1701535423::1::::<><>::
+Cristo13.png::CompressedTexture2D::3149321489883449717::1701535398::1701535423::1::::<><>::
+Cristo14.png::CompressedTexture2D::1507254044128690794::1701535398::1701535423::1::::<><>::
+Cristo15.png::CompressedTexture2D::8264915612890521162::1701535398::1701535423::1::::<><>::
+Cristo16.png::CompressedTexture2D::6859018257666637108::1701535398::1701535423::1::::<><>::
+Cristo17.png::CompressedTexture2D::7352894361094858036::1701535398::1701535422::1::::<><>::
+Cristo18.png::CompressedTexture2D::8331159083063347421::1701535398::1701535423::1::::<><>::
+Cristo19.png::CompressedTexture2D::2837044821465123989::1701535398::1701535423::1::::<><>::
+Cristo20.png::CompressedTexture2D::6545060810230557294::1701535399::1701535423::1::::<><>::
+::res://Cards Resourses/CardSprites/IslãSprite/::1701535456
+Islamic1.png::CompressedTexture2D::4941134287477449589::1701535452::1701535455::1::::<><>::
+Islamic2.png::CompressedTexture2D::8620898526225818453::1701535452::1701535454::1::::<><>::
+Islamic3.png::CompressedTexture2D::1975761774600419913::1701535452::1701535454::1::::<><>::
+Islamic4.png::CompressedTexture2D::8963655259142684753::1701535452::1701535454::1::::<><>::
+Islamic5.png::CompressedTexture2D::5516084447413369214::1701535452::1701535454::1::::<><>::
+Islamic6.png::CompressedTexture2D::3657863111427630770::1701535452::1701535454::1::::<><>::
+Islamic7.png::CompressedTexture2D::4881044529527139718::1701535453::1701535454::1::::<><>::
+Islamic8.png::CompressedTexture2D::5749932873815670501::1701535453::1701535454::1::::<><>::
+Islamic9.png::CompressedTexture2D::1134579801559081945::1701535453::1701535454::1::::<><>::
+Islamic10.png::CompressedTexture2D::4300972818890735000::1701535453::1701535455::1::::<><>::
+Islamic11.png::CompressedTexture2D::4113962962662809417::1701535453::1701535455::1::::<><>::
+Islamic12.png::CompressedTexture2D::1204519975533108659::1701535453::1701535456::1::::<><>::
+Islamic13.png::CompressedTexture2D::5779141842171683405::1701535453::1701535455::1::::<><>::
+Islamic14.png::CompressedTexture2D::8046393658127855371::1701535453::1701535455::1::::<><>::
+Islamic15.png::CompressedTexture2D::1980121658543017314::1701535453::1701535455::1::::<><>::
+Islamic16.png::CompressedTexture2D::4413981309645401791::1701535453::1701535455::1::::<><>::
+Islamic17.png::CompressedTexture2D::8010131180767098544::1701535453::1701535454::1::::<><>::
+::res://Cards Resourses/CardSprites/LunaSprite/::1701739835
+Luna1.png::CompressedTexture2D::7799866152825349734::1701739834::1701739835::1::::<><>::
+Luna2.png::CompressedTexture2D::2500929816956356454::1701739834::1701739835::1::::<><>::
+Luna3.png::CompressedTexture2D::462523520605455816::1701739834::1701739835::1::::<><>::
+::res://Cards Resourses/CardSprites/MaldiçãoSprite/::1701535616
+Maldição1.png::CompressedTexture2D::1305120038710254402::1701535613::1701535616::1::::<><>::
+Maldição2.png::CompressedTexture2D::8351876112773970012::1701535613::1701535616::1::::<><>::
+Maldição3.png::CompressedTexture2D::4232676892318783035::1701535613::1701535615::1::::<><>::
+Maldição4.png::CompressedTexture2D::2445593892909787802::1701535613::1701535615::1::::<><>::
+Maldição6.png::CompressedTexture2D::6624311884846800528::1701535613::1701535615::1::::<><>::
+Maldição7.png::CompressedTexture2D::871169029785680259::1701535613::1701535615::1::::<><>::
+Maldição8.png::CompressedTexture2D::4464199177806302992::1701535613::1701535615::1::::<><>::
+Maldição9.png::CompressedTexture2D::2653024420941634586::1701535613::1701535615::1::::<><>::
+Maldição10.png::CompressedTexture2D::9041849076676443663::1701535613::1701535616::1::::<><>::
+Maldição11.png::CompressedTexture2D::7198959976495070066::1701535613::1701535616::1::::<><>::
+Maldição12.png::CompressedTexture2D::2676875264167460455::1701535613::1701535616::1::::<><>::
+Maldição13.png::CompressedTexture2D::5338748548549139918::1701535613::1701535616::1::::<><>::
+Maldição14.png::CompressedTexture2D::5132120903809201982::1701535613::1701535616::1::::<><>::
+Maldição15.png::CompressedTexture2D::8942393766860239257::1701535614::1701535616::1::::<><>::
+Maldição16.png::CompressedTexture2D::7012524535773710686::1701535614::1701535616::1::::<><>::
+Maldição17.png::CompressedTexture2D::9172964305297251127::1701535614::1701535616::1::::<><>::
+Maldição18.png::CompressedTexture2D::3376276779968306767::1701535614::1701535616::1::::<><>::
+Maldição19.png::CompressedTexture2D::2078714396719295546::1701535614::1701535616::1::::<><>::
+Maldição20.png::CompressedTexture2D::5875725697012247634::1701535614::1701535616::1::::<><>::
+Maldição21.png::CompressedTexture2D::3782106979992533060::1701535614::1701535616::1::::<><>::
+Maldição22.png::CompressedTexture2D::7436557513456571314::1701535614::1701535615::1::::<><>::
+Maldição23.png::CompressedTexture2D::759728339956776972::1701535614::1701535615::1::::<><>::
+Maldição24.png::CompressedTexture2D::4971302938183263909::1701535614::1701535615::1::::<><>::
+Maldição25.png::CompressedTexture2D::6590071463671470180::1701535614::1701535615::1::::<><>::
+Maldição26.png::CompressedTexture2D::6507995297709897373::1701535614::1701535615::1::::<><>::
+Maldição27.png::CompressedTexture2D::7737641900751529929::1701535614::1701535615::1::::<><>::
+Maldição28.png::CompressedTexture2D::1864892007249480::1701535614::1701535615::1::::<><>::
+Maldição29.png::CompressedTexture2D::6348512492242847932::1701535614::1701535615::1::::<><>::
+Maldição30.png::CompressedTexture2D::4838848975449865283::1701535614::1701535615::1::::<><>::
+::res://Cards Resourses/CardSprites/Old/::1701534640
+Cidade Oceânica.png::CompressedTexture2D::7609697954657485066::1696805751::1701534640::1::::<><>::
+Comércio Internacional.png::CompressedTexture2D::228242696067419937::1696805751::1701534640::1::::<><>::
+Curva de Laffer.png::CompressedTexture2D::8712806394200953375::1696805751::1701534640::1::::<><>::
+Liberdade ou morte.png::CompressedTexture2D::7098619915285056938::1696805751::1701534640::1::::<><>::
+Nuke.png::CompressedTexture2D::1634381290914057150::1696805751::1701534640::1::::<><>::
+PARA TRÁS INDITOSO ESQUERDISTA SE TU FREMES DIANTE DO MERCADO CLAMANDO POR REGULAÇÃO DO ESTADO JAMAIS PODERÁ CLAMAR SER UM CONSERVADOR CAPITALISTA.png::CompressedTexture2D::2592477019389453172::1696805751::1701534640::1::::<><>::
+Revolução Anarquista.png::CompressedTexture2D::1807662867368124710::1696805751::1701534640::1::::<><>::
+::res://Cards Resourses/TempleSprite/::1701543280
+Temple1.png::CompressedTexture2D::9114148587294205086::1701543277::1701543280::1::::<><>::
+Temple2.png::CompressedTexture2D::807542900523888304::1701543277::1701543279::1::::<><>::
+Temple3.png::CompressedTexture2D::835153255054810431::1701543277::1701543279::1::::<><>::
+Temple4.png::CompressedTexture2D::8018110768643369286::1701543277::1701543279::1::::<><>::
+Temple5.png::CompressedTexture2D::4366169678007264474::1701543277::1701543279::1::::<><>::
+Temple6.png::CompressedTexture2D::5024642220344514762::1701543277::1701543279::1::::<><>::
+Temple7.png::CompressedTexture2D::1239914327855131067::1701543277::1701543279::1::::<><>::
+Temple8.png::CompressedTexture2D::1093584713603915869::1701543277::1701543279::1::::<><>::
+Temple9.png::CompressedTexture2D::7043754536174538883::1701543277::1701543279::1::::<><>::
+Temple10.png::CompressedTexture2D::5496571811967181318::1701543277::1701543280::1::::<><>::
+Temple11.png::CompressedTexture2D::5888411729313364673::1701543277::1701543280::1::::<><>::
+Temple12.png::CompressedTexture2D::5491173379646216495::1701543278::1701543280::1::::<><>::
+Temple13.png::CompressedTexture2D::2104414988771206880::1701543278::1701543280::1::::<><>::
+Temple14.png::CompressedTexture2D::3634718052297281732::1701543278::1701543279::1::::<><>::
+Temple15.png::CompressedTexture2D::3043775719824451146::1701543278::1701543280::1::::<><>::
+Temple16.png::CompressedTexture2D::5436094546144818375::1701543278::1701543280::1::::<><>::
+Temple17.png::CompressedTexture2D::8285805020109391960::1701543278::1701543280::1::::<><>::
+::res://Cards Resourses/True Card Resourses/::1701739361
+::res://Cards Resourses/True Card Resourses/Atheist Resourse/::1701708484
+Atheist1.tres::Resource/Resource::334775001384022146::1701570660::0::1::::<><>::uid://bay6ommawxl63
+Atheist2.tres::Resource/Resource::2549720045277734267::1701570660::0::1::::<><>::uid://drm4p2a1fcgxs
+Atheist3.tres::Resource/Resource::7179751047813413015::1701570660::0::1::::<><>::uid://bdax1kki40daq
+Atheist4.tres::Resource/Resource::5781112934963578373::1701570660::0::1::::<><>::uid://5wqd6pinutp
+Atheist5.tres::Resource/Resource::2449150345045907971::1701570669::0::1::::<><>::uid://62hriv28apq8
+Atheist6.tres::Resource/Resource::2430236019798063601::1701708483::0::1::::<><>::uid://bliwa1ikfvac1
+Atheist7.tres::Resource/Resource::7107852722532101963::1701570660::0::1::::<><>::uid://dd287hxgnnt6o
+Atheist8.tres::Resource/Resource::4080023801602248785::1701570660::0::1::::<><>::uid://c1yt2ssf4d2oc
+Atheist9.tres::Resource/Resource::8403806515159512532::1701708484::0::1::::<><>::uid://c0qtxuuyc3rqq
+Atheist10.tres::Resource/Resource::3818973826064271305::1701570660::0::1::::<><>::uid://bedfjuwclbfs
+Atheist11.tres::Resource/Resource::5120624213489382919::1701708484::0::1::::<><>::uid://d4kxmx5jk6ld5
+Atheist12.tres::Resource/Resource::4436744898497214106::1701708484::0::1::::<><>::uid://gf2axiaciq5c
+Atheist13.tres::Resource/Resource::4923153250621373461::1701570661::0::1::::<><>::uid://bbevlv5akm7ta
+Atheist14.tres::Resource/Resource::1269091619411408277::1701570661::0::1::::<><>::uid://c3y0q24qs4wid
+Atheist15.tres::Resource/Resource::7257849221351071651::1701538825::0::1::::<><>::uid://c0iqgv1bjqnlu
+Atheist16.tres::Resource/Resource::8613556936008504146::1701570669::0::1::::<><>::uid://ctlredi81221u
+Atheist17.tres::Resource/Resource::4175879479287236777::1701570669::0::1::::<><>::uid://b3gpdxjrctjn7
+Atheist18.tres::Resource/Resource::5627543944187766499::1701708484::0::1::::<><>::uid://dr5hreja66d0v
+::res://Cards Resourses/True Card Resourses/Buda Resourse/::1701708484
+Buda1.tres::Resource/Resource::3971342101150891824::1701570661::0::1::::<><>::uid://kr372gyvjsu6
+Buda2.tres::Resource/Resource::7844653250878047167::1701570661::0::1::::<><>::uid://do2c3f427njuj
+Buda3.tres::Resource/Resource::6811477823958937502::1701708484::0::1::::<><>::uid://dcpxgfly3p7dq
+Buda4.tres::Resource/Resource::8669486292961184566::1701570661::0::1::::<><>::uid://bs417uc2473pf
+Buda5.tres::Resource/Resource::3203293279040955952::1701570661::0::1::::<><>::uid://ci02a83w21716
+Buda6.tres::Resource/Resource::6123088518675365077::1701570661::0::1::::<><>::uid://b0e7q2ya6yu6u
+Buda7.tres::Resource/Resource::3950975926059561444::1701570661::0::1::::<><>::uid://dvce4q4fuv3gd
+Buda8.tres::Resource/Resource::8476093565607377791::1701570662::0::1::::<><>::uid://d2g0f7f2161n3
+Buda11.tres::Resource/Resource::4505431405833234272::1701570662::0::1::::<><>::uid://rkp724krf8gc
+Buda12.tres::Resource/Resource::6802142372052336905::1701570662::0::1::::<><>::uid://cm0eg6gxpjcwk
+Buda13.tres::Resource/Resource::8071056568621959350::1701570662::0::1::::<><>::uid://ca64gm55kdcsu
+Buda16.tres::Resource/Resource::4431394067851073944::1701570663::0::1::::<><>::uid://bx44o3r8pe2ep
+Buda17.tres::Resource/Resource::3704521831825444828::1701708484::0::1::::<><>::uid://dljes4q7o3p3b
+::res://Cards Resourses/True Card Resourses/Cristo Resourse/::1701740736
+Cristo1.tres::Resource/Resource::6513697807750376997::1701708484::0::1::::<><>::uid://d3ecxwb0qw7f5
+Cristo2.tres::Resource/Resource::6540806273551128466::1701708484::0::1::::<><>::uid://bqefe33khvrny
+Cristo3.tres::Resource/Resource::4690038184415467512::1701708484::0::1::::<><>::uid://b1d3ao42wmv4r
+Cristo4.tres::Resource/Resource::5862360892954949441::1701708484::0::1::::<><>::uid://djxsc1d3f6pdr
+Cristo5.tres::Resource/Resource::7500222125796093113::1701708484::0::1::::<><>::uid://bjkeqpf1ymomh
+Cristo6.tres::Resource/Resource::8114522569433941504::1701740735::0::1::::<><>::uid://bei7c86p4o6ti
+Cristo7.tres::Resource/Resource::2559980292387229840::1701708484::0::1::::<><>::uid://d24wk4wahgunv
+Cristo8.tres::Resource/Resource::3305812705491018707::1701708485::0::1::::<><>::uid://cff2yffdj3k1p
+Cristo9.tres::Resource/Resource::9086072364646670443::1701740735::0::1::::<><>::uid://chqkknn4fucsm
+Cristo10.tres::Resource/Resource::5799547141155935092::1701708485::0::1::::<><>::uid://cm4xu3r0xog45
+Cristo11.tres::Resource/Resource::5781960597272185757::1701740736::0::1::::<><>::uid://81c16wh8a32k
+Cristo12.tres::Resource/Resource::355367648566479958::1701740736::0::1::::<><>::uid://bgv4urvwvgxic
+Cristo14.tres::Resource/Resource::7277665899133530026::1701740736::0::1::::<><>::uid://vqeivrb85gso
+Cristo16.tres::Resource/Resource::2213154765936597032::1701740736::0::1::::<><>::uid://c4yta8bwb6ep5
+Cristo17.tres::Resource/Resource::6422202099044928425::1701740736::0::1::::<><>::uid://dc02di2rypb7y
+Cristo18.tres::Resource/Resource::3996982866336843615::1701740736::0::1::::<><>::uid://dqxw8cw46y3tx
+Cristo19.tres::Resource/Resource::1170970683919397932::1701740736::0::1::::<><>::uid://bgojyjb0fvx78
+::res://Cards Resourses/True Card Resourses/Islã Resourse/::1701740737
+Islã1.tres::Resource/Resource::3196830085405768952::1701740736::0::1::::<><>::uid://ccnr03lod0lnx
+Islã2.tres::Resource/Resource::1059603800113182114::1701740736::0::1::::<><>::uid://du3a66yh7416h
+Islã3.tres::Resource/Resource::2068391567315821925::1701740736::0::1::::<><>::uid://3fcri8g86sld
+Islã4.tres::Resource/Resource::2075406930181474121::1701740736::0::1::::<><>::uid://d0ycde7cwmfft
+Islã5.tres::Resource/Resource::5344991145433082265::1701740736::0::1::::<><>::uid://ckubdtkruiw1s
+Islã6.tres::Resource/Resource::8161905099004685520::1701740736::0::1::::<><>::uid://bsd5qarfkca6e
+Islã7.tres::Resource/Resource::5714879951363630770::1701740736::0::1::::<><>::uid://cbsodcmbowtak
+Islã8.tres::Resource/Resource::1023648590348135934::1701740736::0::1::::<><>::uid://cn6ks33n6vbmr
+Islã9.tres::Resource/Resource::8697111311877395106::1701740736::0::1::::<><>::uid://qfummjwljckf
+Islã10.tres::Resource/Resource::1979342780505741137::1701740736::0::1::::<><>::uid://b2jonnnx0hrg7
+Islã11.tres::Resource/Resource::3690239234946921172::1701740736::0::1::::<><>::uid://byu3msqyr2lyf
+Islã12.tres::Resource/Resource::7968934753312775302::1701740737::0::1::::<><>::uid://rfqjd3bmurot
+Islã13.tres::Resource/Resource::7390985333536692374::1701740737::0::1::::<><>::uid://colpve2ehqwnl
+Islã14.tres::Resource/Resource::1913758564764787190::1701740737::0::1::::<><>::uid://dmvy6syny3rcd
+Islã15.tres::Resource/Resource::44463849998899732::1701740737::0::1::::<><>::uid://3hgkxp3rangs
+Islã16.tres::Resource/Resource::2033978696567382678::1701740737::0::1::::<><>::uid://b35fvletw1bx4
+Islã17.tres::Resource/Resource::3477215133696852951::1701740737::0::1::::<><>::uid://dmefxp6xfqhiu
+::res://Cards Resourses/True Card Resourses/Luna Resourses/::1701811945
+Luna1.tres::Resource/Card::9196847013706742325::1701811945::0::1::::<><>::uid://dp0t7nh8d4pl7::::res://Cards Resourses/CardSprites/CristoSprite/Cristo15.png<>res://Cards Resourses/Card.gd
+Luna2.tres::Resource/Resource::8141469994331585005::1701740737::0::1::::<><>::uid://djekwkj7cpf1g
+Luna3.tres::Resource/Card::572424262514528916::1701811945::0::1::::<><>::uid://bbvp7ixrc36ec::::res://Cards Resourses/CardSprites/LunaSprite/Luna2.png<>res://Cards Resourses/Card.gd
+Luna4.tres::Resource/Card::1242579411767137362::1701811945::0::1::::<><>::uid://gubxvg1ch8mu::::res://Cards Resourses/CardSprites/LunaSprite/Luna3.png<>res://Cards Resourses/Card.gd
+::res://Cards Resourses/True Card Resourses/Maldição Resourse/::1701811947
+Curse1.tres::Resource/Card::7379137888594767639::1701811945::0::1::::<><>::uid://suhevvm7gs1w::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição1.png<>res://Cards Resourses/Card.gd
+Curse2.tres::Resource/Card::1342548566691520994::1701811946::0::1::::<><>::uid://dq8ygdlj5lj2k::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição2.png<>res://Cards Resourses/Card.gd
+Curse3.tres::Resource/Card::1183544058326819734::1701811946::0::1::::<><>::uid://b1kltm64dvpnn::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição3.png<>res://Cards Resourses/Card.gd
+Curse4.tres::Resource/Card::5310789566051566175::1701811946::0::1::::<><>::uid://ba3wtrw3rke2u::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição4.png<>res://Cards Resourses/Card.gd
+Curse6.tres::Resource/Card::6569571277722098798::1701811946::0::1::::<><>::uid://c1m4pi7lc6m8g::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição6.png<>res://Cards Resourses/Card.gd
+Curse7.tres::Resource/Card::7078626703342334769::1701811946::0::1::::<><>::uid://moaa52dtnuo6::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição7.png<>res://Cards Resourses/Card.gd
+Curse8.tres::Resource/Card::7518097549549860327::1701811946::0::1::::<><>::uid://b4uqycyklawu7::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição8.png<>res://Cards Resourses/Card.gd
+Curse9.tres::Resource/Card::3469211917872126119::1701811946::0::1::::<><>::uid://bd2e6o3r4des5::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição9.png<>res://Cards Resourses/Card.gd
+Curse10.tres::Resource/Card::714943885808738459::1701811946::0::1::::<><>::uid://d1266y3631g1t::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição10.png<>res://Cards Resourses/Card.gd
+Curse11.tres::Resource/Card::6257291493324762684::1701811946::0::1::::<><>::uid://dath232hqwog5::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição11.png<>res://Cards Resourses/Card.gd
+Curse12.tres::Resource/Card::2679656373118811564::1701811946::0::1::::<><>::uid://beex0kwaee8ln::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição12.png<>res://Cards Resourses/Card.gd
+Curse13.tres::Resource/Card::7619526080884518647::1701811946::0::1::::<><>::uid://cicen5lmpcyi5::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição13.png<>res://Cards Resourses/Card.gd
+Curse14.tres::Resource/Card::3163606630418524747::1701811946::0::1::::<><>::uid://cfebjtnbfly35::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição14.png<>res://Cards Resourses/Card.gd
+Curse15.tres::Resource/Card::4119796247303541431::1701811946::0::1::::<><>::uid://d0n06igdd5mdd::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição15.png<>res://Cards Resourses/Card.gd
+Curse16.tres::Resource/Card::7632663138043531169::1701811946::0::1::::<><>::uid://c656iwjj0lidq::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição16.png<>res://Cards Resourses/Card.gd
+Curse17.tres::Resource/Card::3370944315209240249::1701811946::0::1::::<><>::uid://d3xpm8rbkhf8j::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição17.png<>res://Cards Resourses/Card.gd
+Curse18.tres::Resource/Card::7573584849838821884::1701811947::0::1::::<><>::uid://bodq1x141lip0::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição18.png<>res://Cards Resourses/Card.gd
+Curse19.tres::Resource/Card::8849332448790905012::1701811947::0::1::::<><>::uid://4u7efrg46dok::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição19.png<>res://Cards Resourses/Card.gd
+Curse20.tres::Resource/Card::6865754321481252137::1701811947::0::1::::<><>::uid://cpyilxn0uxk31::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição20.png<>res://Cards Resourses/Card.gd
+Curse21.tres::Resource/Card::7317246586465986934::1701811947::0::1::::<><>::uid://bt5c0qj62lmsi::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição21.png<>res://Cards Resourses/Card.gd
+Curse22.tres::Resource/Card::6955114591839165802::1701811947::0::1::::<><>::uid://dd7lashd64she::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição22.png<>res://Cards Resourses/Card.gd
+Curse23.tres::Resource/Card::2832959325046299580::1701811947::0::1::::<><>::uid://k3au5wt1l03y::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição23.png<>res://Cards Resourses/Card.gd
+Curse24.tres::Resource/Card::8541661236715916963::1701811947::0::1::::<><>::uid://cc3evr3nqs0ib::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição24.png<>res://Cards Resourses/Card.gd
+Curse25.tres::Resource/Card::3608884811389903546::1701811947::0::1::::<><>::uid://c05jrqnsfuqfk::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição25.png<>res://Cards Resourses/Card.gd
+Curse26.tres::Resource/Card::7519123068917193064::1701811947::0::1::::<><>::uid://cyyry44we820x::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição26.png<>res://Cards Resourses/Card.gd
+Curse27.tres::Resource/Card::7337217274886956381::1701811947::0::1::::<><>::uid://diif3jmccy0cb::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição27.png<>res://Cards Resourses/Card.gd
+Curse28.tres::Resource/Card::6224063334710367146::1701811947::0::1::::<><>::uid://5yj7wuivum::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição28.png<>res://Cards Resourses/Card.gd
+Curse29.tres::Resource/Card::3216763695654762495::1701811947::0::1::::<><>::uid://cwpjcqv015u81::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição29.png<>res://Cards Resourses/Card.gd
+Curse30.tres::Resource/Card::4162551559741562798::1701811947::0::1::::<><>::uid://ca68eu3av8jf4::::res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição30.png<>res://Cards Resourses/Card.gd
+::res://Cards Resourses/True Card Resourses/Old/::1701536014
+Anarchist Revolution.tres::Resource/Resource::3240764549808452666::1701534636::0::1::::<><>::uid://00v7cqmc8chi
+Give me freedom or give me death..tres::Resource/Resource::8541309255483473163::1701534636::0::1::::<><>::uid://c8evh6hip3cl3
+International Trade.tres::Resource/Resource::1950085932868432566::1701534636::0::1::::<><>::uid://ditehgdksgsv
+Laffer Curve.tres::Resource/Resource::8370400297957757089::1701534636::0::1::::<><>::uid://dweswbq74cg2r
+Nuke.tres::Resource/Resource::3487780062399177060::1701534636::0::1::::<><>::uid://xjyaymlvl7uo
+Oceanic City.tres::Resource/Resource::8353436813925262961::1701534636::0::1::::<><>::uid://dgogu4h5dpgva
+The capitalist conservative.tres::Resource/Resource::8965141206715940086::1701534636::0::1::::<><>::uid://bc62ynyg04dfg
+::res://Cards Resourses/True Card Resourses/Temple Resourse/::1701811949
+Temple1.tres::Resource/Card::7023601076197767877::1701811947::0::1::::<><>::uid://d237xwfnngrwo::::res://Cards Resourses/TempleSprite/Temple1.png<>res://Cards Resourses/Card.gd
+Temple2.tres::Resource/Card::5359368596889035772::1701811947::0::1::::<><>::uid://lrgd4kp6bgb5::::res://Cards Resourses/TempleSprite/Temple2.png<>res://Cards Resourses/Card.gd
+Temple3.tres::Resource/Card::2006722094645194854::1701811947::0::1::::<><>::uid://l5s38aw876wh::::res://Cards Resourses/TempleSprite/Temple3.png<>res://Cards Resourses/Card.gd
+Temple4.tres::Resource/Card::7954273491197787118::1701811947::0::1::::<><>::uid://dmibd3rm47cfe::::res://Cards Resourses/TempleSprite/Temple4.png<>res://Cards Resourses/Card.gd
+Temple5.tres::Resource/Card::6817231011837379123::1701811947::0::1::::<><>::uid://b3hagaixc7ysw::::res://Cards Resourses/TempleSprite/Temple5.png<>res://Cards Resourses/Card.gd
+Temple6.tres::Resource/Card::9017737834520245042::1701811947::0::1::::<><>::uid://cdt8egquk3t5c::::res://Cards Resourses/TempleSprite/Temple6.png<>res://Cards Resourses/Card.gd
+Temple7.tres::Resource/Card::4754836521877724450::1701811947::0::1::::<><>::uid://rwvhcinnq77l::::res://Cards Resourses/TempleSprite/Temple7.png<>res://Cards Resourses/Card.gd
+Temple8.tres::Resource/Card::2275186177527208173::1701811948::0::1::::<><>::uid://pt0geuy70qn2::::res://Cards Resourses/TempleSprite/Temple8.png<>res://Cards Resourses/Card.gd
+Temple9.tres::Resource/Card::3915276789499050119::1701811948::0::1::::<><>::uid://c7mbuw78dw2l8::::res://Cards Resourses/TempleSprite/Temple9.png<>res://Cards Resourses/Card.gd
+Temple10.tres::Resource/Card::8038112466323820137::1701811949::0::1::::<><>::uid://ckkty8kas3uuo::::res://Cards Resourses/TempleSprite/Temple10.png<>res://Cards Resourses/Card.gd
+Temple11.tres::Resource/Card::3103653715831131089::1701811949::0::1::::<><>::uid://cp5njsxqeq1gn::::res://Cards Resourses/TempleSprite/Temple11.png<>res://Cards Resourses/Card.gd
+Temple12.tres::Resource/Card::7603840288347558515::1701811949::0::1::::<><>::uid://ckh728yxe213x::::res://Cards Resourses/TempleSprite/Temple12.png<>res://Cards Resourses/Card.gd
+Temple13.tres::Resource/Card::7594476263929281952::1701811949::0::1::::<><>::uid://48nn37xsyiwu::::res://Cards Resourses/TempleSprite/Temple13.png<>res://Cards Resourses/Card.gd
+Temple14.tres::Resource/Card::4444750566130134924::1701811949::0::1::::<><>::uid://br1xjmhx01wdg::::res://Cards Resourses/TempleSprite/Temple14.png<>res://Cards Resourses/Card.gd
+Temple15.tres::Resource/Card::7868741699561812158::1701811949::0::1::::<><>::uid://bjmosn4mcn4pq::::res://Cards Resourses/TempleSprite/Temple15.png<>res://Cards Resourses/Card.gd
+Temple16.tres::Resource/Card::4547427151708578549::1701811949::0::1::::<><>::uid://cjpjxhqy45k76::::res://Cards Resourses/TempleSprite/Temple16.png<>res://Cards Resourses/Card.gd
+::res://SubCenas/::1701536149
+CardData.gd::GDScript::-1::1697648318::0::1::::CardData<>Node<>::
+card_data.tscn::PackedScene::4470251862489896505::1701536149::0::1::::<><>::res://SubCenas/CardData.gd<>uid://bmf36h71bhw71
+::res://Teste ideológico/::1698933934
+Olho do Mal.tscn::PackedScene::112499595989467018::1698933934::0::1::::<><>::uid://cq5xpiyfsovob
+::res://Teste ideológico/Cenas/::1701536149
+ControllerQuestion.gd::GDScript::-1::1696881127::0::1::::<>Node<>::
+Desenho Bonito.tscn::PackedScene::2568704025184091221::1701536149::0::1::::<><>::uid://ckk3f6qf8ls6
+Desenhos.tscn::PackedScene::4753269648652834939::1701536148::0::1::::<><>::uid://c04r7sao0c7ny
+::res://Teste ideológico/Masks/::1696271194
+EbuMask.png::CompressedTexture2D::5358190298652472616::1696271193::1696271194::1::::<><>::
+Icon Apple do bem.png::CompressedTexture2D::3856489428969171297::1696201602::1696201602::1::::<><>::
+Icon Apple.png::CompressedTexture2D::2287541667544404607::1696201602::1696201602::1::::<><>::
+Icon Boca.png::CompressedTexture2D::9190245933293911832::1696201602::1696201602::1::::<><>::
+icon Eye.png::CompressedTexture2D::8656594264876583661::1696201602::1696201603::1::::<><>::
+Icon Flag.png::CompressedTexture2D::4577039492143400307::1696201602::1696201602::1::::<><>::
+Icon root.png::CompressedTexture2D::7360859943759792213::1696203234::1696203235::1::::<><>::
+Icon Star.png::CompressedTexture2D::5589062204585435206::1696201602::1696201603::1::::<><>::
+Sword Icon.png::CompressedTexture2D::2406014056601225199::1696197950::1696197951::1::::<><>::
+::res://Teste ideológico/Scriptable Questions/::1701811945
+IdeologiaTeste.gd::GDScript::-1::1695953001::0::1::::IdeologiaTeste<>Resource<>::
+Pergunta1.tres::Resource/IdeologiaTeste::2141053023233011160::1701811945::0::1::::<><>::res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd
+Pergunta2.tres::Resource/IdeologiaTeste::7095389072697425533::1701811945::0::1::::<><>::res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd
+Pergunta3.tres::Resource/IdeologiaTeste::9199364841970419478::1701811945::0::1::::<><>::res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd
+Pergunta4.tres::Resource/IdeologiaTeste::4858454451205032286::1701811945::0::1::::<><>::res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd
+Rostinho.png::CompressedTexture2D::161678948214310727::1696705109::1696705110::1::::<><>::
+::res://Texturas/::1697658004
+Bolinha.png::CompressedTexture2D::4396522655330125274::1696705880::1696874509::1::::<><>::
+Fumacinha Branca.png::CompressedTexture2D::5959217933472628961::1696705888::1696874523::1::::<><>::
+::res://Texturas/Moedinha/::1697658020
+TesteMoedinhaHand.png::CompressedTexture2D::4444821974165157962::1697658019::1697658020::1::::<><>::
+TesteMoedinhaMoney.png::CompressedTexture2D::2915437917053881859::1697658019::1697658020::1::::<><>::
+TesteMoedinhaPeople.png::CompressedTexture2D::8199839092851185275::1697658019::1697658020::1::::<><>::
+::res://Texturas/Particle Textures/::1696258163
+Bolinha.png::CompressedTexture2D::3503342875046484863::1696198040::1696198040::1::::<><>::
+effect_1.png::CompressedTexture2D::2187802308076304296::1696257839::1696257839::1::::<><>::
+effect_2.png::CompressedTexture2D::8448432839972485589::1696257842::1696257842::1::::<><>::
+effect_4.png::CompressedTexture2D::2510559618620212022::1696257807::1696257807::1::::<><>::
+floaty_64.png::CompressedTexture2D::361950054210289889::1696206181::1696206181::1::::<><>::
+Fumacinha Branca.png::CompressedTexture2D::6588519693576654770::1696198051::1696198051::1::::<><>::
+Particle3.png::CompressedTexture2D::8417553688049350064::1696198044::1696198045::1::::<><>::
+Particula2.png::CompressedTexture2D::3981306639931315930::1696198033::1696198033::1::::<><>::
+Particula3.png::CompressedTexture2D::6779929786828257871::1696198033::1696198033::1::::<><>::
+Particula4.png::CompressedTexture2D::1297161258179372661::1696198033::1696198033::1::::<><>::
+ParticulaAnimação.png::CompressedTexture2D::8727887027790196037::1696198033::1696198033::1::::<><>::
+Root Icon.png::CompressedTexture2D::8059169128609106427::1696198033::1696198034::1::::<><>::
+spotlight_1.png::CompressedTexture2D::6884517560451076047::1696258152::1696258163::1::::<><>::
+spotlight_3.png::CompressedTexture2D::6090411219261300033::1696257787::1696257787::1::::<><>::
+spotlight_4.png::CompressedTexture2D::2656064227643659459::1696257791::1696257791::1::::<><>::
+spotlight_5.png::CompressedTexture2D::3593244617085859082::1696257794::1696257794::1::::<><>::
+spotlight_6.png::CompressedTexture2D::1416669011761277850::1696257797::1696257797::1::::<><>::
+spotlight_7.png::CompressedTexture2D::2391485106905315666::1696257803::1696257804::1::::<><>::
+spotlight_8.png::CompressedTexture2D::4546395084665115927::1696257510::1696257511::1::::<><>::
+::res://Texturas/UI Textures/::1699222570
+TestUI.png::CompressedTexture2D::7561896792984997531::1699222569::1699222570::1::::<><>::
+UI0.png::CompressedTexture2D::3519101725310583460::1697144639::1697146529::1::::<><>::
+UI1.png::CompressedTexture2D::8864056249089267019::1697144643::1697146529::1::::<><>::
+UI3.png::CompressedTexture2D::7944223422694759667::1697144665::1697146530::1::::<><>::
+UI4.png::CompressedTexture2D::4350167427342345538::1697144685::1697146529::1::::<><>::

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dycxhhxgy3d3q"]
+
+[ext_resource type="Texture2D" uid="uid://4u7efrg46dok" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição19.png" id="1_jkgpi"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_jf6m2"]
+
+[resource]
+script = ExtResource("2_jf6m2")
+CardName = "Curse of Degeneration"
+CardIlustration = ExtResource("1_jkgpi")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 population."
+CardRequirement = "You have less than X0 faith."
+Notes = "When we lose our faith, our people degenerate"
+Moon = false

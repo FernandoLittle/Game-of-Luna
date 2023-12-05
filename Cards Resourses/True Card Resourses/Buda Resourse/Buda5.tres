@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://blvx1i1oxny61"]
+
+[ext_resource type="Texture2D" uid="uid://ci02a83w21716" path="res://Cards Resourses/CardSprites/BudaSprite/Buda5.png" id="1_gflmb"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_1meso"]
+
+[resource]
+script = ExtResource("2_1meso")
+CardName = "Meditation in Front of the Enlightened"
+CardIlustration = ExtResource("1_gflmb")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 40 Faith, 40 Population, and -30 Money."
+CardRequirement = "Tou have the card “The Enlightened”."
+Notes = "We seek enlightenment by following the path of Buddha"
+Moon = false

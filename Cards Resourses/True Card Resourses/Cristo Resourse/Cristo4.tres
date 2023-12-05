@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://cpr1hy466ik3r"]
+
+[ext_resource type="Texture2D" uid="uid://djxsc1d3f6pdr" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo4.png" id="1_ks172"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_6ipvo"]
+
+[resource]
+script = ExtResource("2_6ipvo")
+CardName = "The Rival"
+CardIlustration = ExtResource("1_ks172")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Destroy all other permanents."
+CardRequirement = "None"
+Notes = "I will give you all this, worship me."
+Moon = false

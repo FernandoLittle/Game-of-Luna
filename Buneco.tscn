@@ -1,0 +1,106 @@
+[gd_scene load_steps=15 format=3 uid="uid://bgprfi0aj2pwd"]
+
+[ext_resource type="Texture2D" uid="uid://btab21y1p4vl7" path="res://Buneco/Braço2R.png" id="1_bp04y"]
+[ext_resource type="Texture2D" uid="uid://dkj8oai1p7xyf" path="res://Buneco/Cabeça.png" id="2_0cid1"]
+[ext_resource type="Texture2D" uid="uid://x04r8kapnt58" path="res://Buneco/Corpo.png" id="3_sni06"]
+[ext_resource type="Texture2D" uid="uid://cifs7x05buriq" path="res://Buneco/Braço1L.png" id="4_twbsv"]
+[ext_resource type="Texture2D" uid="uid://dplbha0j36sfc" path="res://Buneco/Braço2L.png" id="5_audos"]
+[ext_resource type="Texture2D" uid="uid://drfj8pffqftu4" path="res://MãoL.png" id="6_2f5ms"]
+[ext_resource type="Texture2D" uid="uid://0m8whpcrrrbw" path="res://Buneco/Braço1R.png" id="7_t8jus"]
+[ext_resource type="Texture2D" uid="uid://csfr66q1a47jr" path="res://Buneco/MãoR.png" id="8_q43nv"]
+[ext_resource type="Texture2D" uid="uid://8ix5uwkhna0e" path="res://Buneco/Perna1L.png" id="9_ghulp"]
+[ext_resource type="Texture2D" uid="uid://b6h6h4o14f5xi" path="res://Buneco/Perna2R.png" id="10_xrefx"]
+[ext_resource type="Texture2D" uid="uid://d0h1vf5qrru8g" path="res://Buneco/PéL.png" id="11_7401d"]
+[ext_resource type="Texture2D" uid="uid://cki4isn3ypk4" path="res://Buneco/Perna1R.png" id="12_fchxr"]
+[ext_resource type="Texture2D" uid="uid://y4m4xv6tubfc" path="res://Buneco/Perna2L.png" id="13_7estu"]
+[ext_resource type="Texture2D" uid="uid://3s44y21p71xk" path="res://Buneco/PéR.png" id="14_dsj2h"]
+
+[node name="Buneco" type="Node2D"]
+
+[node name="CorpoInvisivel" type="Sprite2D" parent="."]
+position = Vector2(0, -57)
+texture = ExtResource("3_sni06")
+
+[node name="Pescoço" type="Sprite2D" parent="CorpoInvisivel"]
+position = Vector2(4, -178)
+rotation = 0.12293
+texture = ExtResource("1_bp04y")
+
+[node name="Cabeça" type="Sprite2D" parent="CorpoInvisivel/Pescoço"]
+position = Vector2(-7.3917, -35.3605)
+rotation = -0.12293
+texture = ExtResource("2_0cid1")
+
+[node name="Corpo" type="Sprite2D" parent="CorpoInvisivel"]
+position = Vector2(2, -2)
+texture = ExtResource("3_sni06")
+
+[node name="Perna1L" type="Sprite2D" parent="CorpoInvisivel/Corpo"]
+position = Vector2(-77, 144)
+rotation = -0.514872
+texture = ExtResource("9_ghulp")
+offset = Vector2(-55, 50)
+
+[node name="Perna2L" type="Sprite2D" parent="CorpoInvisivel/Corpo/Perna1L"]
+position = Vector2(-135, 126)
+rotation = 0.0610865
+texture = ExtResource("10_xrefx")
+offset = Vector2(-15, 50)
+
+[node name="PéL" type="Sprite2D" parent="CorpoInvisivel/Corpo/Perna1L/Perna2L"]
+position = Vector2(-53, 133)
+rotation = 0.0523599
+texture = ExtResource("11_7401d")
+offset = Vector2(-20, 5.785)
+
+[node name="Perna1R" type="Sprite2D" parent="CorpoInvisivel/Corpo"]
+position = Vector2(72, 142)
+rotation = 0.506145
+texture = ExtResource("12_fchxr")
+offset = Vector2(55, 50)
+
+[node name="Perna2R" type="Sprite2D" parent="CorpoInvisivel/Corpo/Perna1R"]
+position = Vector2(125, 130)
+texture = ExtResource("13_7estu")
+offset = Vector2(20, 50)
+
+[node name="PéR" type="Sprite2D" parent="CorpoInvisivel/Corpo/Perna1R/Perna2R"]
+position = Vector2(48, 132)
+texture = ExtResource("14_dsj2h")
+offset = Vector2(20, 10)
+
+[node name="Braço1L" type="Sprite2D" parent="CorpoInvisivel/Corpo"]
+position = Vector2(-80, -105)
+rotation = -0.244346
+texture = ExtResource("4_twbsv")
+offset = Vector2(-34.665, 40.515)
+
+[node name="Braço2L" type="Sprite2D" parent="CorpoInvisivel/Corpo/Braço1L"]
+position = Vector2(-78.4383, 100.007)
+rotation = 0.321817
+texture = ExtResource("5_audos")
+offset = Vector2(0, 50)
+
+[node name="MãoL" type="Sprite2D" parent="CorpoInvisivel/Corpo/Braço1L/Braço2L"]
+position = Vector2(-3.40955, 118.281)
+rotation = -0.376324
+texture = ExtResource("6_2f5ms")
+offset = Vector2(0, 20)
+
+[node name="Braço1R" type="Sprite2D" parent="CorpoInvisivel/Corpo"]
+position = Vector2(82, -110)
+rotation = 0.18675
+texture = ExtResource("7_t8jus")
+offset = Vector2(30, 50)
+
+[node name="Braço2R" type="Sprite2D" parent="CorpoInvisivel/Corpo/Braço1R"]
+position = Vector2(71.3746, 113.519)
+rotation = -0.0134145
+texture = ExtResource("1_bp04y")
+offset = Vector2(5, 50)
+
+[node name="MãoR" type="Sprite2D" parent="CorpoInvisivel/Corpo/Braço1R/Braço2R"]
+position = Vector2(13.5325, 118.19)
+rotation = -0.0441515
+texture = ExtResource("8_q43nv")
+offset = Vector2(0, 23.035)

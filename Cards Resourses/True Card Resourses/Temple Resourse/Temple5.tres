@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://c4ek2fmjef7ql"]
+
+[ext_resource type="Texture2D" uid="uid://b3hagaixc7ysw" path="res://Cards Resourses/TempleSprite/Temple5.png" id="1_c3sc3"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_phunj"]
+
+[resource]
+script = ExtResource("2_phunj")
+CardName = "Temple of Hope"
+CardIlustration = ExtResource("1_c3sc3")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

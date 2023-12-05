@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b4lcnlwm87ivs"]
+
+[ext_resource type="Texture2D" uid="uid://br1xjmhx01wdg" path="res://Cards Resourses/TempleSprite/Temple14.png" id="1_5r408"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_ibc1b"]
+
+[resource]
+script = ExtResource("2_ibc1b")
+CardName = "Water Temple"
+CardIlustration = ExtResource("1_5r408")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = true

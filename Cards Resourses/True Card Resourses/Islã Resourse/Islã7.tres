@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://cnolic7ih6cni"]
+
+[ext_resource type="Texture2D" uid="uid://cbsodcmbowtak" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic7.png" id="1_q8pav"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_jkju6"]
+
+[resource]
+script = ExtResource("2_jkju6")
+CardName = "The Light of Baghdad"
+CardIlustration = ExtResource("1_q8pav")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 50 money."
+CardRequirement = "You have at least 100 faith."
+Notes = "Faith in Islam brings prosperity to our people."
+Moon = true

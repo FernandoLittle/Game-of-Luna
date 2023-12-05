@@ -1,0 +1,14 @@
+[gd_scene load_steps=9 format=3 uid="uid://b4xonoxthyljl"]
+
+[ext_resource type="Script" path="res://SubCenas/CardData.gd" id="1_3skh5"]
+[ext_resource type="Resource" uid="uid://bmf36h71bhw71" path="res://Cards Resourses/True Card Resourses/Old/Anarchist Revolution.tres" id="2_xd2yw"]
+[ext_resource type="Resource" uid="uid://dtxqd6tcevs4b" path="res://Cards Resourses/True Card Resourses/Old/Give me freedom or give me death..tres" id="3_qqavc"]
+[ext_resource type="Resource" uid="uid://21vvo0mrygao" path="res://Cards Resourses/True Card Resourses/Old/International Trade.tres" id="4_celqc"]
+[ext_resource type="Resource" uid="uid://drixjgdfogoo4" path="res://Cards Resourses/True Card Resourses/Old/Laffer Curve.tres" id="5_ad85m"]
+[ext_resource type="Resource" uid="uid://bpxrh0vslq8qq" path="res://Cards Resourses/True Card Resourses/Old/Nuke.tres" id="6_35e5w"]
+[ext_resource type="Resource" uid="uid://drap5b00issjh" path="res://Cards Resourses/True Card Resourses/Old/Oceanic City.tres" id="7_vwyih"]
+[ext_resource type="Resource" uid="uid://d0y1tiehge0uk" path="res://Cards Resourses/True Card Resourses/Old/The capitalist conservative.tres" id="8_dffy8"]
+
+[node name="CardData" type="Node"]
+script = ExtResource("1_3skh5")
+Cards = [ExtResource("2_xd2yw"), ExtResource("3_qqavc"), ExtResource("4_celqc"), ExtResource("5_ad85m"), ExtResource("6_35e5w"), ExtResource("7_vwyih"), ExtResource("8_dffy8")]

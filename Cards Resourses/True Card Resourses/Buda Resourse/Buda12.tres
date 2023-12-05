@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://c36aj5p58mxjl"]
+
+[ext_resource type="Texture2D" uid="uid://cm0eg6gxpjcwk" path="res://Cards Resourses/CardSprites/BudaSprite/Buda12.png" id="1_8r7nq"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_isagc"]
+
+[resource]
+script = ExtResource("2_isagc")
+CardName = "Samsara Manusya"
+CardIlustration = ExtResource("1_8r7nq")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Destroy all other Samsara permanents, if one of those permanents was the \"Samsara Tiryag\" card, gain 30 of everything immediately. At the end of the turn, gain 10 of everything for each Samsara card destroyed in that game. If all six Samsara cards have been played in this match, you win the game"
+CardRequirement = "None"
+Notes = "The humans reincarnate in this cycle of suffering and desires, the Samsara"
+Moon = false

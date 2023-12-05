@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://3ucojgnv5jgw"]
+
+[ext_resource type="Texture2D" uid="uid://l5s38aw876wh" path="res://Cards Resourses/TempleSprite/Temple3.png" id="1_h26oo"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_so3lm"]
+
+[resource]
+script = ExtResource("2_so3lm")
+CardName = "Temple of Determination"
+CardIlustration = ExtResource("1_h26oo")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

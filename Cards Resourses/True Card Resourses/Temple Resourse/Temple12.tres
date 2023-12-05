@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dglmeyidbcw2f"]
+
+[ext_resource type="Texture2D" uid="uid://ckh728yxe213x" path="res://Cards Resourses/TempleSprite/Temple12.png" id="1_tsqfe"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_3rwi0"]
+
+[resource]
+script = ExtResource("2_3rwi0")
+CardName = "Celestial Temple"
+CardIlustration = ExtResource("1_tsqfe")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

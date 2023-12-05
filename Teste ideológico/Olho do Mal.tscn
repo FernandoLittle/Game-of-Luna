@@ -1,0 +1,65 @@
+[gd_scene load_steps=10 format=3 uid="uid://buq372pnuvt7"]
+
+[ext_resource type="Texture2D" uid="uid://cq5xpiyfsovob" path="res://Texturas/Fumacinha Branca.png" id="1_8kaan"]
+[ext_resource type="Texture2D" uid="uid://b3vyc6gawoxbm" path="res://Texturas/Bolinha.png" id="2_5vv25"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_bwfp0"]
+blend_mode = 2
+
+[sub_resource type="Gradient" id="Gradient_olu4l"]
+colors = PackedColorArray(0.194887, 0.65886, 0.214035, 1, 0.584314, 1, 0.552941, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ehd5x"]
+gradient = SubResource("Gradient_olu4l")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_lju8x"]
+particle_flag_disable_z = true
+spread = 180.0
+gravity = Vector3(0, 0, 0)
+initial_velocity_min = -170.0
+initial_velocity_max = 170.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_min = 0.0
+scale_max = 4.0
+color = Color(0.788235, 0.819608, 1, 1)
+color_ramp = SubResource("GradientTexture1D_ehd5x")
+
+[sub_resource type="Gradient" id="Gradient_55uwo"]
+offsets = PackedFloat32Array(0.0257732, 0.268041, 0.994845)
+colors = PackedColorArray(0, 0, 0, 0, 0.329412, 0.333333, 0.333333, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_4jnen"]
+gradient = SubResource("Gradient_55uwo")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_tvbvn"]
+emission_shape = 6
+emission_ring_axis = Vector3(0, 0, 1)
+emission_ring_height = 1.0
+emission_ring_radius = 150.0
+emission_ring_inner_radius = 150.0
+particle_flag_disable_z = true
+gravity = Vector3(0, 0, 0)
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+radial_accel_min = -200.0
+radial_accel_max = -200.0
+scale_min = 0.0
+scale_max = 2.0
+color_ramp = SubResource("GradientTexture1D_4jnen")
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2(0.705, 0.705)
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]
+material = SubResource("CanvasItemMaterial_bwfp0")
+position = Vector2(-9.52381, 0)
+amount = 573
+process_material = SubResource("ParticleProcessMaterial_lju8x")
+texture = ExtResource("1_8kaan")
+
+[node name="implosão" type="GPUParticles2D" parent="."]
+amount = 713
+process_material = SubResource("ParticleProcessMaterial_tvbvn")
+texture = ExtResource("2_5vv25")
+trail_enabled = true

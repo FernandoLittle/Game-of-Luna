@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://chwt6tboiyr4b"]
+
+[ext_resource type="Texture2D" uid="uid://ba3wtrw3rke2u" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição4.png" id="1_xwnqn"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_0n27c"]
+
+[resource]
+script = ExtResource("2_0n27c")
+CardName = "Curse of Scorn"
+CardIlustration = ExtResource("1_xwnqn")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 money."
+CardRequirement = "You have less than X0 population."
+Notes = "Scorn disunites our people and increases our misery"
+Moon = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dnu0abmcf8gro"]
+
+[ext_resource type="Texture2D" uid="uid://bei7c86p4o6ti" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo6.png" id="1_kr5yc"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_coatw"]
+
+[resource]
+script = ExtResource("2_coatw")
+CardName = "Final Judgment"
+CardIlustration = ExtResource("1_kr5yc")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 40 faith."
+CardRequirement = "This card is destroyed."
+Notes = "Don't fear death"
+Moon = true

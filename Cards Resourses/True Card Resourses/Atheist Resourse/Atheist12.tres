@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b4hgsmspfy13k"]
+
+[ext_resource type="Texture2D" uid="uid://gf2axiaciq5c" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu12.png" id="1_roafg"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_jrf3q"]
+
+[resource]
+script = ExtResource("2_jrf3q")
+CardName = "The Landscape of Doom"
+CardIlustration = ExtResource("1_roafg")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 60 population."
+CardRequirement = "Your faith is 0."
+Notes = "In a godless world, we search"
+Moon = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bporob6oixw2b"]
+
+[ext_resource type="Texture2D" uid="uid://bd2e6o3r4des5" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição9.png" id="1_klpop"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_dr3xn"]
+
+[resource]
+script = ExtResource("2_dr3xn")
+CardName = "Curse of Sloth"
+CardIlustration = ExtResource("1_klpop")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 money."
+CardRequirement = "You have less than X0 population."
+Notes = "Sloth is a curse of our people that fuels misery"
+Moon = false

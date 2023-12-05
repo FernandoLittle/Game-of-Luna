@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dbn0ymbc6t0yh"]
+
+[ext_resource type="Texture2D" uid="uid://c0iqgv1bjqnlu" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo20.png" id="1_tkp8k"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_30sbv"]
+
+[resource]
+script = ExtResource("2_30sbv")
+CardName = "Three Magi"
+CardIlustration = ExtResource("1_tkp8k")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 60 money."
+CardRequirement = "This is the first round."
+Notes = "The three Magi presented the Son of God."
+Moon = false

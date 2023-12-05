@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bndmitvnbiuvj"]
+
+[ext_resource type="Texture2D" uid="uid://cff2yffdj3k1p" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo8.png" id="1_bdxbl"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_03lr3"]
+
+[resource]
+script = ExtResource("2_03lr3")
+CardName = "Memento Mori"
+CardIlustration = ExtResource("1_bdxbl")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 40 money."
+CardRequirement = "This card is destroyed."
+Notes = "Lembre-se da morte"
+Moon = false

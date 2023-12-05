@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://d1qi3bjefq3fi"]
+
+[ext_resource type="Texture2D" uid="uid://cdt8egquk3t5c" path="res://Cards Resourses/TempleSprite/Temple6.png" id="1_qrvyt"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_qiojs"]
+
+[resource]
+script = ExtResource("2_qiojs")
+CardName = "Temple of Solemnity"
+CardIlustration = ExtResource("1_qrvyt")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

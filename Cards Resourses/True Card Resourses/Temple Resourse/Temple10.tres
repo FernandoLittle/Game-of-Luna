@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dmrysj4de8a1n"]
+
+[ext_resource type="Texture2D" uid="uid://ckkty8kas3uuo" path="res://Cards Resourses/TempleSprite/Temple10.png" id="1_isj53"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_h4k37"]
+
+[resource]
+script = ExtResource("2_h4k37")
+CardName = "Temple of Mystery"
+CardIlustration = ExtResource("1_isj53")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

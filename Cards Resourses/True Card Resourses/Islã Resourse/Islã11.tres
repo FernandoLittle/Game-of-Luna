@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bsttx3oa36vce"]
+
+[ext_resource type="Texture2D" uid="uid://byu3msqyr2lyf" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic11.png" id="1_ivdep"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_lwa65"]
+
+[resource]
+script = ExtResource("2_lwa65")
+CardName = "Jihad Begins"
+CardIlustration = ExtResource("1_ivdep")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Destroy all curses and get 10 of everything for each curse destroyed"
+CardRequirement = ""
+Notes = "A person with a pure heart should not be afraid to fight against those with an impure heart."
+Moon = true

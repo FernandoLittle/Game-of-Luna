@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dgg26dfrlm37a"]
+
+[ext_resource type="Texture2D" uid="uid://48nn37xsyiwu" path="res://Cards Resourses/TempleSprite/Temple13.png" id="1_dn6kx"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_x411f"]
+
+[resource]
+script = ExtResource("2_x411f")
+CardName = "Temple of the True One"
+CardIlustration = ExtResource("1_dn6kx")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

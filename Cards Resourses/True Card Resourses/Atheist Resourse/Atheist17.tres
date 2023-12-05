@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b0q3ein4n1h10"]
+
+[ext_resource type="Texture2D" uid="uid://b3gpdxjrctjn7" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu17.png" id="1_qt2ib"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_2tqit"]
+
+[resource]
+script = ExtResource("2_2tqit")
+CardName = "The Landscape of Devastation"
+CardIlustration = ExtResource("1_qt2ib")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose all your faith and gain twice that amount in population."
+CardRequirement = "You have more than 0 faith."
+Notes = "In a devastated world, we have lost our faith in God"
+Moon = false

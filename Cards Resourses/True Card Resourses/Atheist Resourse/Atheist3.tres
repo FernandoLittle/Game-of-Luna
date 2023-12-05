@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://daj6pldtgrmc2"]
+
+[ext_resource type="Texture2D" uid="uid://bdax1kki40daq" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu3.png" id="1_wwwrd"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_k2pi4"]
+
+[resource]
+script = ExtResource("2_k2pi4")
+CardName = "The Only One and Its Property"
+CardIlustration = ExtResource("1_wwwrd")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 60 money."
+CardRequirement = "You have in game \"The Only One Under the Sky\" and \"The Only One Above the Earth\""
+Notes = "You achieve the true victory"
+Moon = false

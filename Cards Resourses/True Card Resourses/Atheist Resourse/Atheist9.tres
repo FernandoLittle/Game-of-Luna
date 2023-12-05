@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dry4p3d0j754s"]
+
+[ext_resource type="Texture2D" uid="uid://c0qtxuuyc3rqq" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu9.png" id="1_sfh48"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_clr13"]
+
+[resource]
+script = ExtResource("2_clr13")
+CardName = "The Philosophy of Cosmos"
+CardIlustration = ExtResource("1_sfh48")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Your attributes become equal to the highest attribute and the attribute that was the highest becomes equal to 0."
+CardRequirement = "Your attributes are all different."
+Notes = "One is all, all is one"
+Moon = false

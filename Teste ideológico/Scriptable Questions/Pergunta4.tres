@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="IdeologiaTeste" load_steps=2 format=3 uid="uid://cbhqbgo7cgfo5"]
+
+[ext_resource type="Script" path="res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd" id="1_l2tk8"]
+
+[resource]
+script = ExtResource("1_l2tk8")
+PerguntaEN = ["The woman you love asks you to close your eyes.", "She will place a mysterious fruit in your mouth.", "Right after closing your eyes you feel a strange smell.", "Do you open your mouth or do you open your eyes?"]
+RespostasEN = ["I open my eyes", "I open my mouth"]
+PerguntaBR = []
+RespostasBR = []
+PerguntaES = []
+RespostasES = []
+Numero = 100

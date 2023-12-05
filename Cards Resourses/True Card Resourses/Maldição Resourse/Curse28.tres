@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://cuw8oclbj6jio"]
+
+[ext_resource type="Texture2D" uid="uid://5yj7wuivum" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição28.png" id="1_q4wrh"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_fba8n"]
+
+[resource]
+script = ExtResource("2_fba8n")
+CardName = "Curse of Abandonment"
+CardIlustration = ExtResource("1_q4wrh")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 faith."
+CardRequirement = "You have less than X0 money."
+Notes = "Abandonment and misery make us lose faith"
+Moon = false

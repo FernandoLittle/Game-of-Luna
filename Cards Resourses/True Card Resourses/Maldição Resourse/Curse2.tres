@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://teltxa8ixwbq"]
+
+[ext_resource type="Texture2D" uid="uid://dq8ygdlj5lj2k" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição2.png" id="1_iixb2"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_chim3"]
+
+[resource]
+script = ExtResource("2_chim3")
+CardName = "Curse of Fear"
+CardIlustration = ExtResource("1_iixb2")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 money."
+CardRequirement = "You have less than X0 faith."
+Notes = "Fear feeds on our disbelief and makes us miserable"
+Moon = false

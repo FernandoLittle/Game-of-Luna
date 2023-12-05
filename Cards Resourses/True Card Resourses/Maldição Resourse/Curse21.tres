@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dcir8npat6tni"]
+
+[ext_resource type="Texture2D" uid="uid://bt5c0qj62lmsi" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição21.png" id="1_1aosh"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_1y8x6"]
+
+[resource]
+script = ExtResource("2_1y8x6")
+CardName = "Curse of Power"
+CardIlustration = ExtResource("1_1aosh")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 faith."
+CardRequirement = "You have less than X0 money."
+Notes = "The desire for power is born from our misery and corrupts our faith"
+Moon = false

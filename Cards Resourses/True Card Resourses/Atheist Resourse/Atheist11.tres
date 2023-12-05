@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://ce7p6yfn7s36j"]
+
+[ext_resource type="Texture2D" uid="uid://d4kxmx5jk6ld5" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu11.png" id="1_dt40a"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_uf4wa"]
+
+[resource]
+script = ExtResource("2_uf4wa")
+CardName = "The Natural World"
+CardIlustration = ExtResource("1_dt40a")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 50 Faith"
+CardRequirement = "Faith is your smallest attribute"
+Notes = "There is something superior in the natural world"
+Moon = false

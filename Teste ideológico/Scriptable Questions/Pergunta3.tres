@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="IdeologiaTeste" load_steps=2 format=3 uid="uid://d4cigvkqg3me5"]
+
+[ext_resource type="Script" path="res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd" id="1_huyu1"]
+
+[resource]
+script = ExtResource("1_huyu1")
+PerguntaEN = ["You found a river that takes you to paradise", "A river that takes you to peace and ultimate fulfillment", "However, if you enter this river you will have to abandon your home, your money, your dreams and your family", "You will have to abandon your self", "Will you enter that river, or remain in the land?"]
+RespostasEN = ["I enter the river that \\n takes me to paradise", "I grow roots in the land"]
+PerguntaBR = []
+RespostasBR = []
+PerguntaES = []
+RespostasES = []
+Numero = 100

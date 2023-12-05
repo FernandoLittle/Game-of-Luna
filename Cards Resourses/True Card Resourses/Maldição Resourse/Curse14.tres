@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://blcqeyxbcbk2f"]
+
+[ext_resource type="Texture2D" uid="uid://cfebjtnbfly35" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição14.png" id="1_2tbdx"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_884y1"]
+
+[resource]
+script = ExtResource("2_884y1")
+CardName = "Curse of False Gods"
+CardIlustration = ExtResource("1_2tbdx")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 faith."
+CardRequirement = "You have less than X0 money."
+Notes = "Misery makes our people bow to false gods"
+Moon = false

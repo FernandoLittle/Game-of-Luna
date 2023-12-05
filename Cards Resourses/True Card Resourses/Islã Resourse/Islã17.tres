@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bpsnhwmhutmk2"]
+
+[ext_resource type="Texture2D" uid="uid://dmefxp6xfqhiu" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic17.png" id="1_fkwcw"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_5ygs8"]
+
+[resource]
+script = ExtResource("2_5ygs8")
+CardName = "The Last Prophet"
+CardIlustration = ExtResource("1_fkwcw")
+PopulationAttribute = -10
+EconomicAttribute = -10
+GovernmentAttribute = -10
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Win the game"
+CardRequirement = "The four announcing angels are at play."
+Notes = "I am back."
+Moon = false

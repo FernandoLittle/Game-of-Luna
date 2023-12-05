@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dlldys67hxs67"]
+
+[ext_resource type="Texture2D" uid="uid://dmibd3rm47cfe" path="res://Cards Resourses/TempleSprite/Temple4.png" id="1_6qh1p"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_0tdbe"]
+
+[resource]
+script = ExtResource("2_0tdbe")
+CardName = "Temple of Wisdom"
+CardIlustration = ExtResource("1_6qh1p")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

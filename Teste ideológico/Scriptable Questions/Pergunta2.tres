@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="IdeologiaTeste" load_steps=2 format=3 uid="uid://c8dcayyig6lo4"]
+
+[ext_resource type="Script" path="res://Teste ideológico/Scriptable Questions/IdeologiaTeste.gd" id="1_3sc11"]
+
+[resource]
+script = ExtResource("1_3sc11")
+PerguntaEN = ["You are in front of a delicious apple, it is not yours, but if you eat, the owner will not miss it.", "After all, he is an apple farmer.", "Do you want to eat an apple?"]
+RespostasEN = ["I want to eat an apple", "I don't want to eat an apple"]
+PerguntaBR = []
+RespostasBR = []
+PerguntaES = []
+RespostasES = []
+Numero = 100

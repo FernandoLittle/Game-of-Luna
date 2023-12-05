@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://b725ijxmtfp2o"]
+
+[ext_resource type="Texture2D" uid="uid://b1d3ao42wmv4r" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo3.png" id="1_nelog"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_yhb3w"]
+
+[resource]
+script = ExtResource("2_yhb3w")
+CardName = "La Divina Commedia"
+CardIlustration = ExtResource("1_nelog")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 20 of everything."
+CardRequirement = "This card is destroyed."
+Notes = "Virgil shows Dante what awaits us after death."
+Moon = false

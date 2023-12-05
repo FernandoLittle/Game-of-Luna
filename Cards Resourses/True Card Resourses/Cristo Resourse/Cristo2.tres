@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://c0goeg877bwk5"]
+
+[ext_resource type="Texture2D" uid="uid://bqefe33khvrny" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo2.png" id="1_3udek"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_bhi4w"]
+
+[resource]
+script = ExtResource("2_bhi4w")
+CardName = "Primum Movens"
+CardIlustration = ExtResource("1_3udek")
+PopulationAttribute = -10
+EconomicAttribute = -10
+GovernmentAttribute = -10
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 60 of everything"
+CardRequirement = "This is the first round."
+Notes = "If everything has a cause, in this finite universe there must be a first cause, a first mover."
+Moon = false

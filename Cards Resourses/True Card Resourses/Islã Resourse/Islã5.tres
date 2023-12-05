@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://ciffhucydcfjt"]
+
+[ext_resource type="Texture2D" uid="uid://ckubdtkruiw1s" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic5.png" id="1_2haht"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_orhgx"]
+
+[resource]
+script = ExtResource("2_orhgx")
+CardName = "The Universe of Islam"
+CardIlustration = ExtResource("1_2haht")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 10 population, if you have more than 300 population, you win the match."
+CardRequirement = "None"
+Notes = "It is God's will for Islam to rule the universe"
+Moon = false

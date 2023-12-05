@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://ds05a1gly527d"]
+
+[ext_resource type="Texture2D" uid="uid://d2g0f7f2161n3" path="res://Cards Resourses/CardSprites/BudaSprite/Buda8.png" id="1_g1vqh"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_465or"]
+
+[resource]
+script = ExtResource("2_465or")
+CardName = "Samsara Tiryag "
+CardIlustration = ExtResource("1_g1vqh")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Destroy all other Samsara permanents, if one of those permanents was the \"Samsara Preta\" card, gain 30 of everything immediately. At the end of the turn, gain 10 of everything for each Samsara card destroyed in that game."
+CardRequirement = "None"
+Notes = "The animals reincarnate in this cycle of suffering and desires, the Samsara"
+Moon = false

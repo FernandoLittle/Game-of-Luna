@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://bmf36h71bhw71"]
+
+[ext_resource type="Texture2D" uid="uid://00v7cqmc8chi" path="res://Cards Resourses/CardSprites/Old/Revolução Anarquista.png" id="1_xw63h"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_ys3mi"]
+
+[resource]
+script = ExtResource("2_ys3mi")
+CardName = "Anarchist Revolution"
+CardIlustration = ExtResource("1_xw63h")
+PopulationAttribute = 43
+EconomicAttribute = 50
+GovernmentAttribute = 80
+Permanent = false
+CardCosts = [1, 2, 0]
+CardEffect = "You win"
+CardRequirement = "You have 50 population and -50 government"
+Notes = ""

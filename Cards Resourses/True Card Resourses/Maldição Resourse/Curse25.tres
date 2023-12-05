@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://brof2niqd5hli"]
+
+[ext_resource type="Texture2D" uid="uid://c05jrqnsfuqfk" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição25.png" id="1_iu330"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_e656s"]
+
+[resource]
+script = ExtResource("2_e656s")
+CardName = "Curse of Misery"
+CardIlustration = ExtResource("1_iu330")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 faith."
+CardRequirement = "You have less than X0 money."
+Notes = "Misery destroys our people"
+Moon = false

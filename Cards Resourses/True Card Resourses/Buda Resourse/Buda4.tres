@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dvrtf4ssw6hs5"]
+
+[ext_resource type="Texture2D" uid="uid://bs417uc2473pf" path="res://Cards Resourses/CardSprites/BudaSprite/Buda4.png" id="1_asrjh"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_bd7xk"]
+
+[resource]
+script = ExtResource("2_bd7xk")
+CardName = "The Enlightened"
+CardIlustration = ExtResource("1_asrjh")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Earn 30 of everything."
+CardRequirement = "You have 0 or less money."
+Notes = "After overcoming the most terrible misery, Buddha achieved enlightenment."
+Moon = false

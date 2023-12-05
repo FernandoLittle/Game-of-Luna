@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dkdxa5h73wwyg"]
+
+[ext_resource type="Texture2D" uid="uid://bjmosn4mcn4pq" path="res://Cards Resourses/TempleSprite/Temple15.png" id="1_xc2as"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_2wl5j"]
+
+[resource]
+script = ExtResource("2_2wl5j")
+CardName = "Temple of Ruins"
+CardIlustration = ExtResource("1_xc2as")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "None"
+CardRequirement = "None"
+Notes = "In the temple, we cultivate our faith, convert the population and earn money through tithing, simple and effective"
+Moon = false

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dfek4gkcbf385"]
+
+[ext_resource type="Texture2D" uid="uid://cyyry44we820x" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição26.png" id="1_fbms4"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_p14y0"]
+
+[resource]
+script = ExtResource("2_p14y0")
+CardName = "Curse of Loneliness"
+CardIlustration = ExtResource("1_fbms4")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 money."
+CardRequirement = "You have less than X0 faith."
+Notes = "Lack of faith makes us lonely and miserable"
+Moon = false

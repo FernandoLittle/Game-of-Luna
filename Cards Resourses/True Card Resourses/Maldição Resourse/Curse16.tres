@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dg0k313f38qdt"]
+
+[ext_resource type="Texture2D" uid="uid://c656iwjj0lidq" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição16.png" id="1_d2wmp"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_ha8l4"]
+
+[resource]
+script = ExtResource("2_ha8l4")
+CardName = "Curse of Mystery"
+CardIlustration = ExtResource("1_d2wmp")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 population."
+CardRequirement = "You have less than X0 faith."
+Notes = "The mysteries of faith disorient our people"
+Moon = false

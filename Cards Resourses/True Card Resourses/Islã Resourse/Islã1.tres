@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://blstlbb7cym6k"]
+
+[ext_resource type="Texture2D" uid="uid://ccnr03lod0lnx" path="res://Cards Resourses/CardSprites/IslãSprite/Islamic1.png" id="1_stoh8"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_g2pav"]
+
+[resource]
+script = ExtResource("2_g2pav")
+CardName = "Jihad Continues"
+CardIlustration = ExtResource("1_stoh8")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Destroy a curse and gain 20 of everything"
+CardRequirement = "None"
+Notes = "A person with a pure heart should not be afraid to fight against those with an impure heart."
+Moon = false

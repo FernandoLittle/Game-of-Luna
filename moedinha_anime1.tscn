@@ -1,0 +1,85 @@
+[gd_scene load_steps=9 format=3 uid="uid://6gca7li0mqf6"]
+
+[ext_resource type="Script" path="res://Moedinha anime.gd" id="1_seldr"]
+[ext_resource type="Texture2D" uid="uid://b4ldtlha6bq7s" path="res://Texturas/Moedinha/TesteMoedinhaHand.png" id="2_ivvgh"]
+[ext_resource type="Texture2D" uid="uid://c5c587elf1kix" path="res://Texturas/Particle Textures/spotlight_1.png" id="3_qtd1w"]
+
+[sub_resource type="Animation" id="Animation_d7hhf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_ydgcq"]
+resource_name = "new_animation"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(2, 3),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_h5kyl"]
+_data = {
+"RESET": SubResource("Animation_d7hhf"),
+"new_animation": SubResource("Animation_ydgcq")
+}
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_vrybr"]
+blend_mode = 1
+
+[sub_resource type="Gradient" id="Gradient_ompyr"]
+offsets = PackedFloat32Array(0, 0.897619, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[node name="Moedinha anime" type="Node2D" node_paths=PackedStringArray("Me", "Particle", "Self", "Anime")]
+script = ExtResource("1_seldr")
+Me = NodePath(".")
+Destiny = Vector2(5800, -700)
+Particle = NodePath("CPUParticles2D")
+Self = NodePath(".")
+Anime = NodePath("AnimationPlayer")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(22.5, 25.5)
+scale = Vector2(5.17, 5.17)
+texture = ExtResource("2_ivvgh")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_h5kyl")
+}
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+material = SubResource("CanvasItemMaterial_vrybr")
+position = Vector2(-30, -4)
+scale = Vector2(9.73, 9.73)
+emitting = false
+amount = 20
+one_shot = true
+explosiveness = 0.51
+texture = ExtResource("3_qtd1w")
+spread = 162.18
+gravity = Vector2(0, 0)
+initial_velocity_min = 73.31
+initial_velocity_max = 102.64
+scale_amount_min = 0.0
+scale_amount_max = 2.0
+color = Color(0, 0.517647, 0.607843, 1)
+color_ramp = SubResource("Gradient_ompyr")

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dbxmdg0wns67o"]
+
+[ext_resource type="Texture2D" uid="uid://vqeivrb85gso" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo14.png" id="1_ox11m"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_c2635"]
+
+[resource]
+script = ExtResource("2_c2635")
+CardName = "The One Who Sees the Cross"
+CardIlustration = ExtResource("1_ox11m")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "You gain 30 Faith, and this card is destroyed at the end of the turn."
+CardRequirement = "None"
+Notes = "He died and he was resurrected"
+Moon = true

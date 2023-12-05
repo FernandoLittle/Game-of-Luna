@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://begbswuopf8ro"]
+
+[ext_resource type="Texture2D" uid="uid://beex0kwaee8ln" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição12.png" id="1_8o6db"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_7tnn5"]
+
+[resource]
+script = ExtResource("2_7tnn5")
+CardName = "Curse of Terror"
+CardIlustration = ExtResource("1_8o6db")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 population."
+CardRequirement = "You have less than X0 faith."
+Notes = "Lack of faith leaves our people terrified"
+Moon = false

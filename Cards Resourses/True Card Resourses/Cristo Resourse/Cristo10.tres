@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://covlxumr8p4ke"]
+
+[ext_resource type="Texture2D" uid="uid://cm4xu3r0xog45" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo10.png" id="1_myi4m"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_bey8g"]
+
+[resource]
+script = ExtResource("2_bey8g")
+CardName = "The Son of God"
+CardIlustration = ExtResource("1_myi4m")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Win the game after 3 turns."
+CardRequirement = "This card is destroyed and you have at least 200 faith."
+Notes = "Pariet autem filium et vocabis nomen eius Iesum ipse enim salvum faciet populum suum a peccatis eorum"
+Moon = false

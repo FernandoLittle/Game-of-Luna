@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://dtxqd6tcevs4b"]
+
+[ext_resource type="Texture2D" uid="uid://c8evh6hip3cl3" path="res://Cards Resourses/CardSprites/Old/Liberdade ou morte.png" id="1_siro5"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_61hbg"]
+
+[resource]
+script = ExtResource("2_61hbg")
+CardName = "Give me freedom or give me death."
+CardIlustration = ExtResource("1_siro5")
+PopulationAttribute = 30
+EconomicAttribute = 30
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [1, 2, 0]
+CardEffect = "You lose"
+CardRequirement = "You have less than 0 economy or less than 0 population"
+Notes = ""

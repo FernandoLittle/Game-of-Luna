@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://comoc5y4me414"]
+
+[ext_resource type="Texture2D" uid="uid://5wqd6pinutp" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu4.png" id="1_7eiba"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_m5vjb"]
+
+[resource]
+script = ExtResource("2_m5vjb")
+CardName = "The Time of Only One"
+CardIlustration = ExtResource("1_7eiba")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "For each \"The Only\" One card you own beyond this one, gain 40 of everything"
+CardRequirement = "None"
+Notes = "I am alive for a single instant, and that has the value of eternity"
+Moon = false

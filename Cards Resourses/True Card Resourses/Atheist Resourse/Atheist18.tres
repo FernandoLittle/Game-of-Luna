@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://cmga3drmk4wyt"]
+
+[ext_resource type="Texture2D" uid="uid://dr5hreja66d0v" path="res://Cards Resourses/CardSprites/AtheistSprite/Ateu18.png" id="1_82gto"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_iwige"]
+
+[resource]
+script = ExtResource("2_iwige")
+CardName = "The Hostile Landscape"
+CardIlustration = ExtResource("1_82gto")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose all your faith and gain twice that amount in population."
+CardRequirement = "You have more than 0 faith"
+Notes = "In a hostile world, we have lost our faith in God"
+Moon = false

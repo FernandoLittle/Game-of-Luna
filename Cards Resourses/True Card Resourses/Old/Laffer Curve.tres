@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://drixjgdfogoo4"]
+
+[ext_resource type="Texture2D" uid="uid://dweswbq74cg2r" path="res://Cards Resourses/CardSprites/Old/Curva de Laffer.png" id="1_xw48a"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_ioby8"]
+
+[resource]
+script = ExtResource("2_ioby8")
+CardName = "Laffer Curve"
+CardIlustration = ExtResource("1_xw48a")
+PopulationAttribute = 0
+EconomicAttribute = 20
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [3, 3, 0]
+CardEffect = "If you have less than 30 economy, you gain 20 government, if you have more than 30 economy, you lose 20 government."
+CardRequirement = "None"
+Notes = ""

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://c6ddyrw77kvju"]
+
+[ext_resource type="Texture2D" uid="uid://dd7lashd64she" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição22.png" id="1_yp22l"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_mtrbc"]
+
+[resource]
+script = ExtResource("2_mtrbc")
+CardName = "Curse of Anguish"
+CardIlustration = ExtResource("1_yp22l")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 population."
+CardRequirement = "You have less than X0 faith."
+Notes = "The lack of faith brings anguish to our people"
+Moon = true

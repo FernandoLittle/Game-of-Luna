@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://byxwpbjrendxv"]
+
+[ext_resource type="Texture2D" uid="uid://d0n06igdd5mdd" path="res://Cards Resourses/CardSprites/MaldiçãoSprite/Maldição15.png" id="1_e3785"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_bpuwd"]
+
+[resource]
+script = ExtResource("2_bpuwd")
+CardName = "Curse of Corruption"
+CardIlustration = ExtResource("1_e3785")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "Lose X0 money."
+CardRequirement = "You have less than X0 population."
+Notes = "The corruption of our people sows misery across our land"
+Moon = true

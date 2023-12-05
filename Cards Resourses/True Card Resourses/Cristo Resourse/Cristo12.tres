@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://fce4amhnu2a1"]
+
+[ext_resource type="Texture2D" uid="uid://bgv4urvwvgxic" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo12.png" id="1_xrkvb"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_nbhj8"]
+
+[resource]
+script = ExtResource("2_nbhj8")
+CardName = "Come and Follow Me"
+CardIlustration = ExtResource("1_xrkvb")
+PopulationAttribute = 0
+EconomicAttribute = -20
+GovernmentAttribute = 0
+Permanent = true
+CardCosts = [0, 0, 0]
+CardEffect = "Gain 100 money."
+CardRequirement = "This card is destroyed."
+Notes = "Do not lay up treasures on earth, lay up treasures in the kingdom of heaven."
+Moon = false

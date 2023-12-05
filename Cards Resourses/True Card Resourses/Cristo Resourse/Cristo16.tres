@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="Card" load_steps=3 format=3 uid="uid://6scloal4o5aq"]
+
+[ext_resource type="Texture2D" uid="uid://c4yta8bwb6ep5" path="res://Cards Resourses/CardSprites/CristoSprite/Cristo16.png" id="1_y28xr"]
+[ext_resource type="Script" path="res://Cards Resourses/Card.gd" id="2_8ni4w"]
+
+[resource]
+script = ExtResource("2_8ni4w")
+CardName = "The Resurrection of Son"
+CardIlustration = ExtResource("1_y28xr")
+PopulationAttribute = 0
+EconomicAttribute = 0
+GovernmentAttribute = 0
+Permanent = false
+CardCosts = [0, 0, 0]
+CardEffect = "For each card destroyed in this match gain 30 faith."
+CardRequirement = "None."
+Notes = "The symbol of Christ's resurrection."
+Moon = false
